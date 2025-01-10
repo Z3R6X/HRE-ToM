@@ -1,0 +1,82 @@
+[
+    {
+        "situation_id": 1,
+        "situation": "PersonX and PersonY cook dinner together"
+    },
+    {
+        "situation_id": 2,
+        "situation": "PersonX and PersonY wash the dishes after dinner"
+    },
+    {
+        "situation_id": 3,
+        "situation": "PersonX picks up PersonY from the airport"
+    },
+    {
+        "situation_id": 4,
+        "situation": "PersonX and PersonY visit PersonY's family"
+    },
+    {
+        "situation_id": 5,
+        "situation": "PersonX and PersonY watch a football game together"
+    },
+    {
+        "situation_id": 6,
+        "situation": "PersonX and PersonY play chess against each other"
+    },
+    {
+        "situation_id": 7,
+        "situation": "PersonX and PersonY have lunch together in school"
+    },
+    {
+        "situation_id": 8,
+        "situation": "PersonX and PersonY go to the math class together"
+    },
+    {
+        "situation_id": 9,
+        "situation": "PersonX and PersonY walk their dog in the park"
+    },
+    {
+        "situation_id": 10,
+        "situation": "PersonX and PersonY play a videogame together"
+    },
+    {
+        "situation_id": 11,
+        "situation": "PersonX meets PersonY for a coffee"
+    },
+    {
+        "situation_id": 12,
+        "situation": "PersonX goes on a date with PersonY"
+    },
+    {
+        "situation_id": 13,
+        "situation": "PersonX gives PersonY a present"
+    },
+    {
+        "situation_id": 14,
+        "situation": "PersonX and PersonY visit the shopping mall"
+    },
+    {
+        "situation_id": 15,
+        "situation": "PersonX and PersonY go to the beach together"
+    },
+    {
+        "situation_id": 16,
+        "situation": "PersonX and PersonY swim in the swimming pool"
+    },
+    {
+        "situation_id": 17,
+        "situation": "PersonX calls PersonY with their phone"
+    },
+    {
+        "situation_id": 18,
+        "situation": "PersonX and PersonY go to a bookstore together"
+    },
+    {
+        "situation_id": 19,
+        "situation": "PersonX and PersonY buy groceries in the supermarket together"
+    },
+    {
+        "situation_id": 20,
+        "situation": "PersonX and PersonY go on a hike together"
+    }
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"id": 0,
+		"target": "sad",
+		"scenario": "Youssef and Rabina are in a kitchen. Both are actively participating in the cooking process. Rabina slices vegetables while Youssef stirs the contents of a pot on the stove. There is a rhythm to their movements, indicating familiarity and routine. They engage in intermittent conversation, marked by nods and brief exchanges of smiles. Suddenly, the stirring spoon slips from Youssef's grasp and clatters into the pot, splattering sauce onto the stove and floor. Youssef freezes for a moment, then hastily retrieves the spoon. Rabina turns towards the noise, her knife pausing mid-slice. She observes Youssef's actions with a slight furrow in her brow. Youssef proceeds to clean the mess, his movements less rhythmic and more rushed than before. He avoids eye contact with Rabina, focusing intently on the task at hand.",
+		"question_name": "Youssef"
+	},
+	{
+		"id": 1,
+		"target": "sad",
+		"scenario": "Nagi and Luca are in a kitchen, standing side by side at a sink filled with soapy water. Nagi, on the left, is scrubbing a plate with a sponge, while Luca, on the right, is drying a mug with a towel. The room is filled with the sound of running water and the clinking of dishes. Suddenly, the sound of shattering glass is heard. Nagi stiffens, looking down at the sink where broken shards from a wine glass are visible among the dishes. Nagi's movements slow and they carefully begin to gather the larger pieces from the water. Luca turns towards Nagi, pausing for a moment before resuming their task at a slower pace. They glance at Nagi occasionally, their mouth pressed into a thin line. Nagi continues to clean the broken glass, their shoulders hunched and movements careful.",
+		"question_name": "Luca"
+	}
+]

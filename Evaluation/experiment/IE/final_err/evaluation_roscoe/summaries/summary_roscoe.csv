@@ -1,0 +1,2 @@
+,task,faithfulness_step,informativeness_step,info_chain,repetition_step,self_consistency (min),source_consistency (min),self_consistency (mean),source_consistency (mean),perplexity_chain,perplexity_step
+0,infer_emotion,0.9397608041763306,0.940168023109436,0.9793105125427246,0.0402817465364933,0.058936603367328644,0.050548702478408813,0.9219481348991394,0.9355382323265076,0.0503859743475914,0.006130749359726906

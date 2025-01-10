@@ -1,0 +1,210 @@
+[
+	{
+        "id": 0,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Mariya excuses herself to go to the kitchen to prepare some snacks. While she's gone, Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+		"question_name": "Mariya",
+		"object": "remote control",
+		"target": "unobserved"
+    },
+	{
+        "id": 1,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya excuses herself to go to the kitchen to prepare some snacks. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+		"question_name": "Mariya",
+		"object": "remote control",
+		"target": "observed"
+    },
+	{	
+        "id": 2,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Martina leaves the garage to fetch some refreshments. While Martina is gone, Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Martina returns to the garage with some cold drinks. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+		"question_name": "Martina",
+		"object": "hammer",
+		"target": "unobserved"
+    },
+	{
+        "id": 3,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Martina leaves the garage to fetch some refreshments. Martina returns to the garage with some cold drinks. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+		"question_name": "Martina",
+		"object": "hammer",
+		"target": "observed"
+    },
+	{	
+		"id": 4,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Lin steps out of the office to attend a meeting. While Lin is away, Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+		"question_name": "Lin",
+		"object": "stapler",
+		"target": "unobserved"
+	},
+	{	
+		"id": 5,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. Lin steps out of the office to attend a meeting. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+		"question_name": "Lin",
+		"object": "stapler",
+		"target": "observed"
+	},
+	{
+		"id": 6,
+        "setting": "bar",
+        "scenario": "Samantha and Alice are enjoying an evening at a lively bar downtown. Samantha interacts with a pool cue, selecting it from the rack near the pool table. She places the pool cue in a holder on the side of the pool table. Alice decides to step out of the bar for a bit, maybe to take a phone call or get some fresh air. While Alice is gone, Samantha moves the pool cue from the holder on the side of the pool table to a stand near the entrance. Samantha then goes to the bar counter and orders a round of drinks for when Alice returns. After a while, Alice comes back into the bar. Samantha, seeing Alice return, goes back to the counter to collect the drinks she ordered.",
+		"question_name": "Alice",
+		"object": "pool cue",
+		"target": "unobserved"
+	},
+	{	
+		"id": 7,
+        "setting": "bar",
+        "scenario": "Samantha and Alice are enjoying an evening at a lively bar downtown. Alice decides to step out of the bar for a bit, maybe to take a phone call or get some fresh air. After a while, Alice comes back into the bar. Samantha interacts with a pool cue, selecting it from the rack near the pool table. She places the pool cue in a holder on the side of the pool table. Samantha moves the pool cue from the holder on the side of the pool table to a stand near the entrance. Samantha then goes to the bar counter and orders a round of drinks for when Alice returns. Samantha, seeing Alice return, goes back to the counter to collect the drinks she ordered.",
+		"question_name": "Alice",
+		"object": "pool cue",
+		"target": "observed"
+	},
+	{
+		"id": 8,
+        "setting": "dining room",
+        "scenario": "Beatriz and Sara are having breakfast in the kitchen. Beatriz interacts with a coffee mug, taking a sip from it. She places the coffee mug in the sink. Sara leaves the kitchen to answer a phone call. While Sara is gone, Beatriz moves the coffee mug from the sink to the dishwasher. Beatriz then sweeps the kitchen floor. Sara returns to the dining room after finishing her phone call. Beatriz continues her task by mopping the dining room floor.",
+		"question_name": "Beatriz",
+		"object": "coffee mug",
+		"target": "unobserved"
+	},
+	{
+		"id": 9,
+        "setting": "dining room",
+        "scenario": "Beatriz and Sara are having breakfast in the dining room. Beatriz interacts with a coffee mug, taking a sip from it. She places the coffee mug in the sink. Beatriz moves the coffee mug from the sink to the dishwasher. Sara leaves the dining room to answer a phone call. Beatriz then sweeps the dining room floor. Sara returns to the dining room after finishing her phone call. Beatriz continues her task by mopping the dining room floor.",
+		"question_name": "Beatriz",
+		"object": "coffee mug",
+		"target": "observed"
+	},
+	{
+		"id": 10,
+        "setting": "waiting room",
+        "scenario": "Aaron and Samuel are seated in the waiting room of a dental clinic. Aaron picks up a health magazine from the coffee table. Aaron places the health magazine in his backpack. Samuel is called in by the dentist and he leaves the waiting room. After Samuel leaves, Aaron moves the health magazine from his backpack to a nearby empty magazine rack. Aaron then cleans up the coffee table, arranging the scattered magazines neatly. After his check-up, Samuel returns to the waiting room. Aaron, wanting to pass time, starts filling out a crossword puzzle in a newspaper in the waiting room.",
+		"question_name": "Samuel",
+		"object": "health magazine",
+		"target": "unobserved"
+	},
+	{
+		"id": 11,
+        "setting": "waiting room",
+        "scenario": "Aaron and Samuel are seated in the waiting room of a dental clinic. Aaron picks up a health magazine from the coffee table. Aaron places the health magazine in his backpack. Aaron moves the health magazine from his backpack to a nearby empty magazine rack. Samuel is called in by the dentist and he leaves the waiting room. Aaron then cleans up the coffee table, arranging the scattered magazines neatly. After his check-up, Samuel returns to the waiting room. Aaron, wanting to pass time, starts filling out a crossword puzzle in a newspaper in the waiting room.",
+		"question_name": "Samuel",
+		"object": "health magazine",
+		"target": "observed"
+	},
+	{
+		"id": 12,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. The record album is placed in a cardboard box filled with other albums. Isabella leaves the basement to grab some cleaning supplies from upstairs. While Isabella is gone, Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Isabella returns to the basement with the cleaning supplies. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+		"question_name": "Isabella",
+		"object": "record album",
+		"target": "unobserved"
+	},
+	{
+		"id": 13,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. Isabella leaves the basement to grab some cleaning supplies from upstairs. Isabella returns to the basement with the cleaning supplies. The record album is placed in a cardboard box filled with other albums. Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+		"question_name": "Isabella",
+		"object": "record album",
+		"target": "observed"
+	},
+	{
+		"id": 14,
+        "setting": "kitchen",
+        "scenario": "David and Juan are in the kitchen, preparing for a dinner party. David picks up a sharp chef's knife to chop some vegetables. After chopping, David places the knife in a wooden knife block for safety. Juan, having finished his task of setting the table, leaves the kitchen to get some drinks from the basement. While Juan is away, David moves the knife from the wooden knife block to a drawer, deciding it's a safer storage location. David then continues with his tasks, now peeling potatoes for the main dish. Juan returns to the kitchen, carrying a bottle of wine and some soft drinks. David, having finished peeling the potatoes, begins to saut\u00e9 them in a pan.",
+		"question_name": "Juan",
+		"object": "knife",
+		"target": "unobserved"
+	},
+	{
+		"id": 15,
+        "setting": "kitchen",
+        "scenario": "David and Juan are in the kitchen, preparing for a dinner party. David picks up a sharp chef's knife to chop some vegetables. After chopping, David places the knife in a wooden knife block for safety. David moves the knife from the wooden knife block to a drawer, deciding it's a safer storage location. Juan, having finished his task of setting the table, leaves the kitchen to get some drinks from the basement. David then continues with his tasks, now peeling potatoes for the main dish. Juan returns to the kitchen, carrying a bottle of wine and some soft drinks. David, having finished peeling the potatoes, begins to saut\u00e9 them in a pan.",
+		"question_name": "Juan",
+		"object": "knife",
+		"target": "observed"
+	},
+	{
+		"id": 16,
+        "setting": "living room",
+        "scenario": "Leordo and Leo are sitting in the living room, enjoying their leisure time. Leordo picks up the remote control to browse through different channels on the television. After finding a suitable channel, he places the remote control in a small wooden box near his seat. Leo then decides to leave the living room to go and prepare dinner in the kitchen. While Leo is away, Leordo decides to tidy up the living room. He moves the remote control from the small wooden box to a decorative ceramic bowl on the coffee table. Leordo then proceeds to dust off the furniture and arrange the magazines on the coffee table. After finishing the cooking, Leo returns to the living room to find it neat and tidy. Leordo, feeling accomplished, decides to water the indoor plants in the living room.",
+		"question_name": "Leo",
+		"object": "remote control",
+		"target": "unobserved"
+	},
+	{
+		"id": 17,
+        "setting": "living room",
+        "scenario": "Leordo and Leo are sitting in the living room, enjoying their leisure time. Leordo picks up the remote control to browse through different channels on the television. After finding a suitable channel, he places the remote control in a small wooden box near his seat. Leordo decides to tidy up the living room. He moves the remote control from the small wooden box to a decorative ceramic bowl on the coffee table. Leo then decides to leave the living room to go and prepare dinner in the kitchen. Leordo then proceeds to dust off the furniture and arrange the magazines on the coffee table. After finishing the cooking, Leo returns to the living room to find it neat and tidy. Leordo, feeling accomplished, decides to water the indoor plants in the living room.",
+		"question_name": "Leo",
+		"object": "remote control",
+		"target": "observed"
+	},
+	{
+		"id": 18,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. While Somsak is gone, Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Somsak returns to the living room, freshly washed hands drying on his pants. Ali continues with his task in the living room, now dusting off the television screen.",
+		"question_name": "Somsak",
+		"object": "mystery novel",
+		"target": "unobserved"
+	},
+	{
+		"id": 19,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. Somsak returns to the living room, freshly washed hands drying on his pants. Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Ali continues with his task in the living room, now dusting off the television screen.",
+		"question_name": "Somsak",
+		"object": "mystery novel",
+		"target": "observed"
+	},
+	{
+		"id": 20,
+        "setting": "classroom",
+        "scenario": "Fatemeh and Emilia are in their science classroom. Fatemeh picks up a black marker from the teacher's desk and begins to write on the whiteboard. After she finishes writing, she places the marker in the whiteboard's tray. Emilia then excuses herself to go to the restroom. While Emilia is away, Fatemeh decides to change the color of the text she wrote on the board. She moves the marker from the whiteboard's tray to the desk drawer, where she finds a red marker. Fatemeh then begins to underline important points in red on the whiteboard. After a while, Emilia comes back into the classroom. Seeing Emilia return, Fatemeh continues with her task and starts explaining the underlined points to Emilia, turning their classroom into an interactive learning session.",
+		"question_name": "Emilia",
+		"object": "marker",
+		"target": "unobserved"
+	},
+	{
+		"id": 21,
+        "setting": "classroom",
+        "scenario": "Fatemeh and Emilia are in their science classroom. Fatemeh picks up a black marker from the teacher's desk and begins to write on the whiteboard. After she finishes writing, she places the marker in the whiteboard's tray. Emilia then excuses herself to go to the restroom. After a while, Emilia comes back into the classroom. Fatemeh decides to change the color of the text she wrote on the board. She moves the marker from the whiteboard's tray to the desk drawer, where she finds a red marker. Fatemeh then begins to underline important points in red on the whiteboard. Fatemeh continues with her task and starts explaining the underlined points to Emilia, turning their classroom into an interactive learning session.",
+		"question_name": "Emilia",
+		"object": "marker",
+		"target": "observed"
+	},
+	{
+		"id": 22,
+        "setting": "classroom",
+        "scenario": "Noah and Lukn\u0117 are studying in the library. Noah picks up and reads a book on psychology. Noah places the book into his backpack. Lukn\u0117 decides to leave the library to grab a cup of coffee. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf. Noah then proceeds to write an essay on his laptop. After some time, Lukn\u0117 returns to the library with her coffee. Noah greets her and continues to work on his essay.",
+		"question_name": "Lukn\u0117",
+		"object": "book",
+		"target": "unobserved"
+	},
+	{
+		"id": 23,
+        "setting": "classroom",
+        "scenario": "Noah and Lukn\u0117 are studying in the library. Noah picks up and reads a book on psychology. Noah places the book into his backpack. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf. Lukn\u0117 decides to leave the library to grab a cup of coffee. Noah then proceeds to write an essay on his laptop. After some time, Lukn\u0117 returns to the library with her coffee. Noah greets her and continues to work on his essay.",
+		"question_name": "Lukn\u0117",
+		"object": "book",
+		"target": "observed"
+	},
+	{
+		"id": 24,
+        "setting": "office",
+        "scenario": "Elias and Liam are both working in their shared office space. Elias is busy working on his laptop, typing away at a report due later in the day. After a while, he places the laptop in his desk drawer, a secure spot for his personal belongings. Liam then decides to step out of the office for a quick lunch break, leaving Elias alone in the room. Seeing an opportunity, Elias moves his laptop from his desk drawer to a filing cabinet, a more spacious spot that can accommodate his laptop and his pile of documents. While Liam is away, Elias continues working, organizing the office and tidying up their shared workspace. Upon Liam's return, Elias is still engrossed in his work, now filing documents and sorting out paperwork in the office.",
+		"question_name": "Liam",
+		"object": "laptop",
+		"target": "unobserved"
+	},
+	{
+		"id": 25,
+        "setting": "office",
+        "scenario": "Elias and Liam are both working in their shared office space. Elias is busy working on his laptop, typing away at a report due later in the day. After a while, he places the laptop in his desk drawer, a secure spot for his personal belongings. Elias moves his laptop from his desk drawer to a filing cabinet, a more spacious spot that can accommodate his laptop and his pile of documents. Liam then decides to step out of the office for a quick lunch break, leaving Elias alone in the room. While Liam is away, Elias continues working, organizing the office and tidying up their shared workspace. Upon Liam's return, Elias is still engrossed in his work, now filing documents and sorting out paperwork in the office.",
+		"question_name": "Liam",
+		"object": "laptop",
+		"target": "observed"
+	}
+]

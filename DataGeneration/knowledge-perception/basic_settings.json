@@ -1,0 +1,62 @@
+[
+    {
+        "situation_id": 1,
+        "setting": "kitchen"
+    },
+    {
+        "situation_id": 2,
+        "setting": "living room"
+    },
+    {
+        "situation_id": 3,
+        "setting": "garage"
+    },
+    {
+        "situation_id": 4,
+        "setting": "bed room"
+    },
+    {
+        "situation_id": 5,
+        "setting": "classroom"
+    },
+    {
+        "situation_id": 6,
+        "setting": "office"
+    },
+    {
+        "situation_id": 7,
+        "setting": "cafeteria"
+    },
+    {
+        "situation_id": 8,
+        "setting": "bar"
+    },
+    {
+        "situation_id": 9,
+        "setting": "dining room"
+    },
+    {
+        "situation_id": 10,
+        "setting": "waiting room"
+    },
+    {
+        "situation_id": 11,
+        "setting": "laundry room"
+    },
+    {
+        "situation_id": 12,
+        "setting": "restaurant"
+    },
+    {
+        "situation_id": 13,
+        "setting": "basement"
+    },
+    {
+        "situation_id": 14,
+        "setting": "bathroom"
+    },
+    {
+        "situation_id": 15,
+        "setting": "storage room"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "knowledge_perception": {
+        "rcu": {
+            "inter-correctness (min)": 0.0009556636214256287,
+            "inter-correctness (mean)": 0.3074507713317871,
+            "intra-correctness (min) (k=0)": 0.00031140950159169734,
+            "intra-correctness (min) (k=4)": 0.0002694373542908579,
+            "intra-correctness (min) (k=8)": 0.00031732814386487007,
+            "intra-correctness (mean) (k=0)": 0.2777498960494995,
+            "intra-correctness (mean) (k=4)": 0.26408183574676514,
+            "intra-correctness (mean) (k=8)": 0.27784469723701477
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "infer_emotion": {
+        "source_grounding": {
+            "premise_agreement (min)": 0.5901381969451904,
+            "conclusion_agreement (min)": 0.455265611410141,
+            "premise_agreement (mean)": 0.8354440331459045,
+            "conclusion_agreement (mean)": 0.8179052472114563
+        },
+        "step_entailment": {
+            "entailment_probability (min)": 0.04988119751214981,
+            "entailment_probability (mean)": 0.45419174432754517,
+            "non-contradiction_probability (min)": 0.13990643620491028,
+            "non-contradiction_probability (mean)": 0.6728175282478333
+        },
+        "chain_entailment": {
+            "weighted_entailment-chain (max)": 0.669808566570282,
+            "weighted_non-contradiction-chain (max)": 0.7780210971832275,
+            "entailement-chain (max)": 0.7369493246078491,
+            "non-contradiction-chain (max)": 0.8845372200012207
+        }
+    }
+}

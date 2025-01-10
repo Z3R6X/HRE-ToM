@@ -1,0 +1,558 @@
+{
+    "source_grounding": {
+        "means": {
+            "premise_agreement (min)": 0.41001540422439575,
+            "conclusion_agreement (min)": 0.4643222689628601,
+            "premise_agreement (mean)": 0.8627412915229797,
+            "conclusion_agreement (mean)": 0.6174440383911133
+        },
+        "results": [
+            {
+                "id": 0,
+                "premise_agreement (min)": 0.2783242236253664,
+                "conclusion_agreement (min)": 0.6813544419438337,
+                "premise_agreement (mean)": 0.8595555666716809,
+                "conclusion_agreement (mean)": 0.724560393247454,
+                "conc_agreement_probs": [
+                    0.6813544419438337,
+                    0.7677663445510745
+                ],
+                "prem_agreement_probs": [
+                    0.9741170576118585,
+                    0.2783242236253664,
+                    0.9578197880674963,
+                    0.8955121800493302,
+                    0.9701717067411818,
+                    0.9640781283614142,
+                    0.9768658822451188
+                ]
+            },
+            {
+                "id": 1,
+                "premise_agreement (min)": 0.7130278126270323,
+                "conclusion_agreement (min)": 0.7145465618528046,
+                "premise_agreement (mean)": 0.8912287054186531,
+                "conclusion_agreement (mean)": 0.8335838236596737,
+                "conc_agreement_probs": [
+                    0.7145465618528046,
+                    0.9291517546294169,
+                    0.8570531544967994
+                ],
+                "prem_agreement_probs": [
+                    0.9736720983020629,
+                    0.8957985744198026,
+                    0.9106916635463077,
+                    0.9365254528078115,
+                    0.7130278126270323,
+                    0.9176566308089011
+                ]
+            },
+            {
+                "id": 2,
+                "premise_agreement (min)": 0.21048591156267732,
+                "conclusion_agreement (min)": 0.14119757192365195,
+                "premise_agreement (mean)": 0.8075726250369687,
+                "conclusion_agreement (mean)": 0.448283552282835,
+                "conc_agreement_probs": [
+                    0.14119757192365195,
+                    0.4870272695528389,
+                    0.7166258153720142
+                ],
+                "prem_agreement_probs": [
+                    0.9729144611103245,
+                    0.9705027078880091,
+                    0.21048591156267732,
+                    0.9391188308266306,
+                    0.6378301270872866,
+                    0.9699235986698929,
+                    0.9522327381139607
+                ]
+            },
+            {
+                "id": 3,
+                "premise_agreement (min)": 0.5841595463393087,
+                "conclusion_agreement (min)": 0.4927992048465164,
+                "premise_agreement (mean)": 0.8675493843575781,
+                "conclusion_agreement (mean)": 0.6752287304458484,
+                "conc_agreement_probs": [
+                    0.4927992048465164,
+                    0.8576582560451805
+                ],
+                "prem_agreement_probs": [
+                    0.9610883167762954,
+                    0.9721263830533037,
+                    0.5841595463393087,
+                    0.9358891563987992,
+                    0.9490294526522356,
+                    0.7463124976417128,
+                    0.9242403376413922
+                ]
+            },
+            {
+                "id": 4,
+                "premise_agreement (min)": 0.1201420339658319,
+                "conclusion_agreement (min)": 0.37022851746892665,
+                "premise_agreement (mean)": 0.8414175521110604,
+                "conclusion_agreement (mean)": 0.5365531547847391,
+                "conc_agreement_probs": [
+                    0.37022851746892665,
+                    0.7028777921005516
+                ],
+                "prem_agreement_probs": [
+                    0.9440213887793598,
+                    0.9770098114203816,
+                    0.9463683630246619,
+                    0.9508477253027524,
+                    0.1201420339658319,
+                    0.9856226176851157,
+                    0.9659109245993187
+                ]
+            },
+            {
+                "id": 5,
+                "premise_agreement (min)": 0.8039399373508392,
+                "conclusion_agreement (min)": 0.42727959862941856,
+                "premise_agreement (mean)": 0.9263877591908015,
+                "conclusion_agreement (mean)": 0.5582004735519405,
+                "conc_agreement_probs": [
+                    0.607445430335529,
+                    0.42727959862941856,
+                    0.6398763916908736
+                ],
+                "prem_agreement_probs": [
+                    0.9582401916898938,
+                    0.9498031446760552,
+                    0.9624040508141396,
+                    0.95755147142308,
+                    0.8039399373508392
+                ]
+            },
+            {
+                "id": 6,
+                "premise_agreement (min)": 0.16124787655678535,
+                "conclusion_agreement (min)": 0.10299758504803039,
+                "premise_agreement (mean)": 0.8592681389692668,
+                "conclusion_agreement (mean)": 0.32085225435175363,
+                "conc_agreement_probs": [
+                    0.10299758504803039,
+                    0.17659252091750263,
+                    0.6829666570897279
+                ],
+                "prem_agreement_probs": [
+                    0.9575688674703136,
+                    0.16124787655678535,
+                    0.9680837421881496,
+                    0.9400098218083768,
+                    0.9292587126989049,
+                    0.9647495070967799,
+                    0.9816744433115259,
+                    0.9715521406232976
+                ]
+            },
+            {
+                "id": 7,
+                "premise_agreement (min)": 0.40879557085858526,
+                "conclusion_agreement (min)": 0.7841746530637487,
+                "premise_agreement (mean)": 0.8489506669786229,
+                "conclusion_agreement (mean)": 0.8422900270177399,
+                "conc_agreement_probs": [
+                    0.9004054009717312,
+                    0.7841746530637487
+                ],
+                "prem_agreement_probs": [
+                    0.9398896264520027,
+                    0.9668069060438549,
+                    0.964319441229367,
+                    0.40879557085858526,
+                    0.9262891252822967,
+                    0.9501955283888038,
+                    0.7863584705954495
+                ]
+            }
+        ]
+    },
+    "step_entailment": {
+        "means": {
+            "entailment_probability (min)": 0.3728766143321991,
+            "entailment_probability (mean)": 0.5965825915336609,
+            "non-contradiction_probability (min)": 0.621440052986145,
+            "non-contradiction_probability (mean)": 0.7518215179443359
+        },
+        "results": [
+            {
+                "id": 0,
+                "entailment_probability (min)": 0.2199146090697783,
+                "entailment_probability (mean)": 0.49126399377203905,
+                "non-contradiction_probability (min)": 0.5430481567022513,
+                "non-contradiction_probability (mean)": 0.6936135120417285,
+                "non_cont_probs": [
+                    0.7336184360841367,
+                    0.5430481567022513,
+                    0.8041739433387971
+                ],
+                "ent_probs": [
+                    0.6293299236681127,
+                    0.2199146090697783,
+                    0.6245474485782262
+                ]
+            },
+            {
+                "id": 1,
+                "entailment_probability (min)": 0.26081476562567246,
+                "entailment_probability (mean)": 0.5790984461590032,
+                "non-contradiction_probability (min)": 0.4714309951183831,
+                "non-contradiction_probability (mean)": 0.7557771891972903,
+                "non_cont_probs": [
+                    0.879511625687546,
+                    0.8303275411717739,
+                    0.4714309951183831,
+                    0.8497354286516077,
+                    0.6846062427605388,
+                    0.8190513017938922
+                ],
+                "ent_probs": [
+                    0.8145252953915396,
+                    0.26081476562567246,
+                    0.2785089422756846,
+                    0.7724190981053671,
+                    0.5478140144157975,
+                    0.8005085611399584
+                ]
+            },
+            {
+                "id": 2,
+                "entailment_probability (min)": 0.2679976015813838,
+                "entailment_probability (mean)": 0.3867471294555025,
+                "non-contradiction_probability (min)": 0.4499478111416161,
+                "non-contradiction_probability (mean)": 0.6158923809177893,
+                "non_cont_probs": [
+                    0.7399504343121861,
+                    0.6205928424205438,
+                    0.6338469729921248,
+                    0.6254321175656535,
+                    0.4499478111416161,
+                    0.6255841070746115
+                ],
+                "ent_probs": [
+                    0.4757177464436794,
+                    0.4271684338964104,
+                    0.5513600704514158,
+                    0.2679976015813838,
+                    0.29727419563480717,
+                    0.3009647287253184
+                ]
+            },
+            {
+                "id": 3,
+                "entailment_probability (min)": 0.399800458565504,
+                "entailment_probability (mean)": 0.727516392897427,
+                "non-contradiction_probability (min)": 0.7455794773878385,
+                "non-contradiction_probability (mean)": 0.8479580353639786,
+                "non_cont_probs": [
+                    0.7455794773878385,
+                    0.9287162475928753,
+                    0.8695783811112221
+                ],
+                "ent_probs": [
+                    0.399800458565504,
+                    0.9193391401798858,
+                    0.863409579946891
+                ]
+            },
+            {
+                "id": 4,
+                "entailment_probability (min)": 0.1777910277037329,
+                "entailment_probability (mean)": 0.35769745746804454,
+                "non-contradiction_probability (min)": 0.507753377535573,
+                "non-contradiction_probability (mean)": 0.6545215789011359,
+                "non_cont_probs": [
+                    0.507753377535573,
+                    0.6106465391806234,
+                    0.8451648199872116
+                ],
+                "ent_probs": [
+                    0.2783195669913905,
+                    0.1777910277037329,
+                    0.6169817777090103
+                ]
+            },
+            {
+                "id": 5,
+                "entailment_probability (min)": 0.6443836351563207,
+                "entailment_probability (mean)": 0.7918420270021519,
+                "non-contradiction_probability (min)": 0.6905654551315642,
+                "non-contradiction_probability (mean)": 0.8088943948435675,
+                "non_cont_probs": [
+                    0.6905654551315642,
+                    0.7651191876020714,
+                    0.7876195843876337,
+                    0.8973797141584737,
+                    0.9037880329380944
+                ],
+                "ent_probs": [
+                    0.6443836351563207,
+                    0.7331948512176604,
+                    0.7868652121525833,
+                    0.8941764574207145,
+                    0.9005899790634804
+                ]
+            },
+            {
+                "id": 6,
+                "entailment_probability (min)": 0.17418717342283396,
+                "entailment_probability (mean)": 0.593048132909591,
+                "non-contradiction_probability (min)": 0.6956227068471091,
+                "non-contradiction_probability (mean)": 0.7621806491326719,
+                "non_cont_probs": [
+                    0.783568674054394,
+                    0.6956227068471091,
+                    0.7050917096896112,
+                    0.7239068473447718,
+                    0.8291314583918027,
+                    0.8357624984683425
+                ],
+                "ent_probs": [
+                    0.740492781719257,
+                    0.579397840967332,
+                    0.4966594435372388,
+                    0.17418717342283396,
+                    0.790757693504415,
+                    0.7767938643064696
+                ]
+            },
+            {
+                "id": 7,
+                "entailment_probability (min)": 0.838123870647456,
+                "entailment_probability (mean)": 0.845446965422211,
+                "non-contradiction_probability (min)": 0.8675726420056029,
+                "non-contradiction_probability (mean)": 0.8757340080829764,
+                "non_cont_probs": [
+                    0.8838953741603499,
+                    0.8675726420056029
+                ],
+                "ent_probs": [
+                    0.838123870647456,
+                    0.852770060196966
+                ]
+            }
+        ]
+    },
+    "chain_entailment": {
+        "means": {
+            "weighted_entailment-chain (max)": 0.5288546681404114,
+            "weighted_non-contradiction-chain (max)": 0.6973657608032227,
+            "entailement-chain (max)": 0.7046241164207458,
+            "non-contradiction-chain (max)": 0.8008506298065186
+        },
+        "results": [
+            {
+                "id": 0,
+                "entailement-chain (max)": 0.6269386861231694,
+                "non-contradiction-chain (max)": 0.7688961897114669,
+                "weighted_entailment-chain (max)": 0.5192895959020699,
+                "weighted_non-contradiction-chain (max)": 0.6312788603787354,
+                "noncont_chain_probs": [
+                    0.7688961897114669,
+                    0.5430481567022513
+                ],
+                "ent_chain_probs": [
+                    0.6269386861231694,
+                    0.2199146090697783
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.6312788603787354,
+                    0.5235408505236223
+                ],
+                "weighted_ent_chain_probs": [
+                    0.5192895959020699,
+                    0.21201486471132394
+                ]
+            },
+            {
+                "id": 1,
+                "entailement-chain (max)": 0.7724190981053671,
+                "non-contradiction-chain (max)": 0.8497354286516077,
+                "weighted_entailment-chain (max)": 0.5922595870097894,
+                "weighted_non-contradiction-chain (max)": 0.7693229153339977,
+                "noncont_chain_probs": [
+                    0.7233313075332738,
+                    0.7820589342240425,
+                    0.8246894214828331,
+                    0.8497354286516077
+                ],
+                "ent_chain_probs": [
+                    0.6311809329357275,
+                    0.6811696549036685,
+                    0.5306616633828154,
+                    0.7724190981053671
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.6514127603234138,
+                    0.6727694835258805,
+                    0.7693229153339977,
+                    0.6058849940031494
+                ],
+                "weighted_ent_chain_probs": [
+                    0.578627364937134,
+                    0.5922595870097894,
+                    0.49402680032780416,
+                    0.550756299953415
+                ]
+            },
+            {
+                "id": 2,
+                "entailement-chain (max)": 0.44268084854013784,
+                "non-contradiction-chain (max)": 0.6664605047929741,
+                "weighted_entailment-chain (max)": 0.259937198160716,
+                "weighted_non-contradiction-chain (max)": 0.6066213701930102,
+                "noncont_chain_probs": [
+                    0.6664605047929741,
+                    0.594949122726901,
+                    0.6230884747475777,
+                    0.6254321175656535
+                ],
+                "ent_chain_probs": [
+                    0.44268084854013784,
+                    0.38649597103924327,
+                    0.3640665813108644,
+                    0.2679976015813838
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.3713608837163449,
+                    0.39172000823637465,
+                    0.3502546655473774,
+                    0.6066213701930102
+                ],
+                "weighted_ent_chain_probs": [
+                    0.22908713606268885,
+                    0.2524035347705309,
+                    0.20951946327131366,
+                    0.259937198160716
+                ]
+            },
+            {
+                "id": 3,
+                "entailement-chain (max)": 0.9193391401798858,
+                "non-contradiction-chain (max)": 0.9287162475928753,
+                "weighted_entailment-chain (max)": 0.8603995323473508,
+                "weighted_non-contradiction-chain (max)": 0.8691754654935544,
+                "noncont_chain_probs": [
+                    0.8075789292495303,
+                    0.9287162475928753
+                ],
+                "ent_chain_probs": [
+                    0.6316050192561975,
+                    0.9193391401798858
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.5725476298544794,
+                    0.8691754654935544
+                ],
+                "weighted_ent_chain_probs": [
+                    0.40486555211190195,
+                    0.8603995323473508
+                ]
+            },
+            {
+                "id": 4,
+                "entailement-chain (max)": 0.4476506723502004,
+                "non-contradiction-chain (max)": 0.6764590987613923,
+                "weighted_entailment-chain (max)": 0.24558193651111615,
+                "weighted_non-contradiction-chain (max)": 0.58983016326333,
+                "noncont_chain_probs": [
+                    0.6764590987613923,
+                    0.6106465391806234
+                ],
+                "ent_chain_probs": [
+                    0.4476506723502004,
+                    0.1777910277037329
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.3961170834696499,
+                    0.58983016326333
+                ],
+                "weighted_ent_chain_probs": [
+                    0.24558193651111615,
+                    0.17173029595477574
+                ]
+            },
+            {
+                "id": 5,
+                "entailement-chain (max)": 0.8168924151405703,
+                "non-contradiction-chain (max)": 0.8344536102700829,
+                "weighted_entailment-chain (max)": 0.5803188505239241,
+                "weighted_non-contradiction-chain (max)": 0.6034183903705285,
+                "noncont_chain_probs": [
+                    0.7939910241524308,
+                    0.793972584645019,
+                    0.8344536102700829
+                ],
+                "ent_chain_probs": [
+                    0.7772796087907947,
+                    0.7692800462885176,
+                    0.8168924151405703
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.5087778931461954,
+                    0.6034183903705285,
+                    0.5006400298532976
+                ],
+                "weighted_ent_chain_probs": [
+                    0.49341856675667567,
+                    0.5803188505239241,
+                    0.48712417376890205
+                ]
+            },
+            {
+                "id": 6,
+                "entailement-chain (max)": 0.765625237611836,
+                "non-contradiction-chain (max)": 0.8063500662230983,
+                "weighted_entailment-chain (max)": 0.3952594835749782,
+                "weighted_non-contradiction-chain (max)": 0.7033132471496758,
+                "noncont_chain_probs": [
+                    0.7748076274041159,
+                    0.8063500662230983,
+                    0.7656926026577258,
+                    0.7239068473447718
+                ],
+                "ent_chain_probs": [
+                    0.6713153631876551,
+                    0.765625237611836,
+                    0.6780958526369008,
+                    0.17418717342283396
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.3235110392092444,
+                    0.41785975285059423,
+                    0.3970014337908537,
+                    0.7033132471496758
+                ],
+                "weighted_ent_chain_probs": [
+                    0.29913451478920444,
+                    0.3952594835749782,
+                    0.3377932392844779,
+                    0.16923192120807592
+                ]
+            },
+            {
+                "id": 7,
+                "entailement-chain (max)": 0.845446965422211,
+                "non-contradiction-chain (max)": 0.8757340080829764,
+                "weighted_entailment-chain (max)": 0.7777913498458402,
+                "weighted_non-contradiction-chain (max)": 0.8059655928196918,
+                "noncont_chain_probs": [
+                    0.8757340080829764
+                ],
+                "ent_chain_probs": [
+                    0.845446965422211
+                ],
+                "weighted_noncont_chain_probs": [
+                    0.8059655928196918
+                ],
+                "weighted_ent_chain_probs": [
+                    0.7777913498458402
+                ]
+            }
+        ]
+    }
+}

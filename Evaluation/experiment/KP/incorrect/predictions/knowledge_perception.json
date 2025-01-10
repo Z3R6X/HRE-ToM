@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Mariya excuses herself to go to the kitchen to prepare some snacks. Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+        "question_name": "Mariya",
+        "object": "remote control",
+        "target": "unobserved",
+        "prediction": "Muhammad and Mariya are in the living room, having a conversation. The remote control is initially on the coffee table. Muhammad picks up the remote control to turn on the television and changes the channel. Muhammad places the remote control in a small basket on the side table. While tidying up, Muhammad moves the remote control from the small basket to a drawer in the TV stand. Mariya is present to witness both the placement of the remote control in the small basket and its subsequent movement to the drawer. Mariya excuses herself to go to the kitchen to prepare snacks. Mariya returns to the living room with snacks and drinks, and Muhammad helps her set them on the coffee table. Since Mariya saw the remote control being moved to the drawer, she would likely believe that the remote control is now in the drawer in the TV stand."
+    },
+    {
+        "id": 1,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya excuses herself to go to the kitchen to prepare some snacks. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+        "question_name": "Mariya",
+        "object": "remote control",
+        "target": "observed",
+        "prediction": "Muhammad and Mariya are in the living room together. Muhammad picks up the remote control from the coffee table and changes the television channel. Muhammad places the remote control in a small basket on the side table. Mariya is present when Muhammad places the remote in the small basket, so it is likely she sees where the remote is placed. Mariya leaves the living room to go to the kitchen. While Mariya is in the kitchen, Muhammad moves the remote control from the small basket to a drawer in the TV stand. Mariya did not witness Muhammad moving the remote to the drawer. There is no mention of Muhammad telling Mariya about moving the remote, nor is there any indication that she notices its new location when she returns to the living room. Since Mariya was not informed of the remote’s new location, she would likely believe that the remote control is still in the small basket on the side table, where she last saw it."
+    },
+    {
+        "id": 4,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Lin steps out of the office to attend a meeting. Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+        "question_name": "Lin",
+        "object": "stapler",
+        "target": "unobserved",
+        "prediction": "Liam and Lin are working together in the office. Liam uses the stapler to fasten some documents. After using the stapler, Liam places it in the desk drawer. Liam then moves the stapler from the desk drawer to a stationery organizer on his desk. Lin is still in the office when Liam moves the stapler to the stationery organizer, so she would have seen this move. Lin steps out of the office to attend a meeting after the stapler is placed in the stationery organizer. Lin witnessed the stapler being moved from the desk drawer to the stationery organizer. Lin returns to the office after her meeting. Liam has since finished his presentation and is working on his weekly report. Since Lin left the office after the stapler was placed in the stationery organizer, she would likely believe that the stapler is still in the stationery organizer on Liam's desk."
+    },
+    {
+        "id": 5,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. Lin steps out of the office to attend a meeting. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+        "question_name": "Lin",
+        "object": "stapler",
+        "target": "observed",
+        "prediction": "Liam and Lin are working together in the office. Liam uses the stapler to fasten some documents. Liam places the stapler in the desk drawer. Lin is still present when Liam puts the stapler in the drawer and likely sees this. Lin steps out of the office to attend a meeting. While Lin is gone, Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Lin did not witness Liam moving the stapler from the desk drawer to the stationery organizer. There is no indication that Liam tells Lin about the move or that Lin notices the new location of the stapler when she returns to the office. Since Lin was not informed of the stapler’s new location, she would likely believe that the stapler is still in the desk drawer, where she last saw it."
+    },
+    {
+        "id": 12,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. The record album is placed in a cardboard box filled with other albums. Isabella leaves the basement to grab some cleaning supplies from upstairs. Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Isabella returns to the basement with the cleaning supplies. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+        "question_name": "Isabella",
+        "object": "record album",
+        "target": "unobserved",
+        "prediction": "Maria and Isabella are organizing the basement together. Maria interacts with a vintage record album. Isabella leaves the basement to grab cleaning supplies from upstairs. Isabella returns with the cleaning supplies. At the time of Isabella’s return, the record album is placed in a cardboard box. Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Isabella was present when Maria moved the record album from the cardboard box to the plastic bin. Maria begins cleaning the furniture and floor using the supplies brought by Isabella. Since Isabella witnessed the movement of the record album, she would likely believe that the record album is now in the plastic bin, where it was last placed."
+    },
+    {
+        "id": 13,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. Isabella leaves the basement to grab some cleaning supplies from upstairs. Isabella returns to the basement with the cleaning supplies. The record album is placed in a cardboard box filled with other albums. Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+        "question_name": "Isabella",
+        "object": "record album",
+        "target": "observed",
+        "prediction": "Isabella and Maria are in the basement organizing items. There is a cardboard box in the basement that contains record albums. Isabella leaves the basement to get cleaning supplies from upstairs. While Isabella is upstairs, Maria moves the record album from the cardboard box to a plastic bin. Isabella is unaware that Maria has moved the record album from the cardboard box to the plastic bin. There is no indication that Isabella saw or was informed about Maria moving the album. Isabella has only seen the album in the cardboard box and is not aware of any changes. Since Isabella has no knowledge of the album being moved, she would likely believe that the record album is still in the cardboard box where she last saw it."
+    },
+    {
+        "id": 18,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Somsak returns to the living room, freshly washed hands drying on his pants. Ali continues with his task in the living room, now dusting off the television screen.",
+        "question_name": "Somsak",
+        "object": "mystery novel",
+        "target": "unobserved",
+        "prediction": "Ali and Somsak are in the living room, chatting casually. The mystery novel is on the coffee table. Ali picks up the mystery novel and flips through its pages. Ali places the mystery novel in a small basket beside the couch. Somsak is still present when Ali places the novel in the basket and would have seen this action. Somsak excuses himself to use the restroom. Somsak returns to the living room after using the restroom. Ali moves the mystery novel from the small basket to a bookshelf near the window. Somsak is present when Ali moves the novel to the bookshelf and sees this action. Ali starts cleaning and organizing the living room. Since Somsak saw the mystery novel being moved to the bookshelf, he would likely believe that the mystery novel is now in the bookshelf."
+    },
+    {
+        "id": 19,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. Somsak returns to the living room, freshly washed hands drying on his pants. Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Ali continues with his task in the living room, now dusting off the television screen.",
+        "question_name": "Somsak",
+        "object": "mystery novel",
+        "target": "observed",
+        "prediction": "Ali and Somsak are in the living room together. Ali picks up a mystery novel from the coffee table and flips through its pages. Ali places the book in a small basket beside the couch. Somsak is still present when Ali puts the book in the basket and likely sees where the book is placed. Somsak leaves the living room to use the restroom. While Somsak is away, Ali moves the book from the basket to a bookshelf near the window. Somsak did not witness Ali moving the book to the bookshelf. There is no indication that Ali tells Somsak about moving the book, nor is there any evidence that Somsak notices its new location when he returns to the living room. Since Somsak was not informed of the book’s new location, he would likely believe that the mystery novel is still in the small basket beside the couch, where he last saw it."
+    }
+]

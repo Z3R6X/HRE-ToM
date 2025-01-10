@@ -1,0 +1,22 @@
+{
+    "knowledge_perception": {
+        "source_grounding": {
+            "premise_agreement (min)": 0.4877472221851349,
+            "conclusion_agreement (min)": 0.46580013632774353,
+            "premise_agreement (mean)": 0.8740413784980774,
+            "conclusion_agreement (mean)": 0.6367296576499939
+        },
+        "step_entailment": {
+            "entailment_probability (min)": 0.3728766441345215,
+            "entailment_probability (mean)": 0.5965825915336609,
+            "non-contradiction_probability (min)": 0.621440052986145,
+            "non-contradiction_probability (mean)": 0.7518214583396912
+        },
+        "chain_entailment": {
+            "weighted_entailment-chain (max)": 0.5434904098510742,
+            "weighted_non-contradiction-chain (max)": 0.7086371183395386,
+            "entailement-chain (max)": 0.7046241760253906,
+            "non-contradiction-chain (max)": 0.8008506298065186
+        }
+    }
+}

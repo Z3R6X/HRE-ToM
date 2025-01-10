@@ -1,0 +1,14 @@
+{
+    "infer_emotion": {
+        "rcu": {
+            "inter-correctness (min)": 0.22687524557113647,
+            "inter-correctness (mean)": 0.6990079879760742,
+            "intra-correctness (min) (k=0)": 0.00032041643862612545,
+            "intra-correctness (min) (k=4)": 0.0003169608535245061,
+            "intra-correctness (min) (k=8)": 0.00031121872598305345,
+            "intra-correctness (mean) (k=0)": 0.35642707347869873,
+            "intra-correctness (mean) (k=4)": 0.3062984347343445,
+            "intra-correctness (mean) (k=8)": 0.35600221157073975
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "infer_emotion": {
+        "semantic_alignment": {
+            "faithfulness_step": 0.9390528798103333,
+            "informativeness_step": 0.9387611150741577
+        },
+        "semantic_similarity": {
+            "info_chain": 0.9777767658233643,
+            "repetition_step": 0.03850468248128891
+        },
+        "logical_inference": {
+            "self_consistency (min)": 0.25521615147590637,
+            "source_consistency (min)": 0.003295421600341797,
+            "self_consistency (mean)": 0.9552088379859924,
+            "source_consistency (mean)": 0.9228515028953552
+        },
+        "language_coherence": {
+            "perplexity_chain": 0.0525471568107605,
+            "perplexity_step": 0.006284863222390413
+        }
+    }
+}

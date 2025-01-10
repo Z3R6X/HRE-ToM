@@ -1,0 +1,34 @@
+[
+	{
+        "id": 0,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Mariya excuses herself to go to the kitchen to prepare some snacks. While she's gone, Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+		"question_name": "Mariya",
+		"object": "remote control",
+		"target": "unobserved"
+    },
+	{
+        "id": 1,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya excuses herself to go to the kitchen to prepare some snacks. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+		"question_name": "Mariya",
+		"object": "remote control",
+		"target": "observed"
+    },
+	{	
+        "id": 2,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Martina leaves the garage to fetch some refreshments. While Martina is gone, Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Martina returns to the garage with some cold drinks. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+		"question_name": "Martina",
+		"object": "hammer",
+		"target": "unobserved"
+    },
+	{
+        "id": 3,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Martina leaves the garage to fetch some refreshments. Martina returns to the garage with some cold drinks. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+		"question_name": "Martina",
+		"object": "hammer",
+		"target": "observed"
+    }
+]

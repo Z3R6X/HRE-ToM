@@ -1,0 +1,16 @@
+[
+    {
+        "id": 38,
+        "target": "joyful",
+        "scenario": "Vesna is seen reaching into a bag and retrieving a small, wrapped object. She extends her arm, offering the object towards Arthur. Arthur accepts the object, his fingers lightly brushing against Vesna's as he takes it. He then proceeds to unwrap the object, revealing a book. Upon seeing the book, Arthur's eyes widen slightly, his eyebrows lift, and the corners of his mouth tighten and draw upwards into a smile. He runs his fingers over the book's cover, tracing the title. He then looks up at Vesna, still smiling, and gives a nod of his head, followed by a verbal expression of thanks. His voice is slightly louder and higher pitched than before, and his speech is faster. He continues to hold the book, turning it over in his hands, while maintaining eye contact with Vesna.",
+        "question_name": "Arthur",
+        "answer": "Vesna reaches into a bag and retrieves a small, wrapped object, indicating she has something special or thoughtful to share with Arthur. Arthur accepts the object, and their fingers lightly brush against each other. The brief physical contact could add warmth or connection to the moment. As Arthur unwraps the object and reveals a book, his eyes widen, and his eyebrows lift. Arthur's widened eyes and lifted eyebrows indicate surprise or excitement. The corners of Arthur’s mouth tighten into a smile, suggesting he appreciates the book. Arthur runs his fingers over the cover of the book, which indicates he is happy about the gift. Arthur maintains eye contact and smiles at Vesna, demonstrating that he is pleased and grateful. Based on these observations, Arthur is likely feeling joy or satisfaction."
+    },
+    {
+        "id": 53,
+        "target": "surprised",
+        "scenario": "Fatma and Sophie enter a well-lit bookstore. They navigate through the aisles, occasionally stopping to examine various books. Sophie, in particular, seems to be engrossed in the mystery section. Suddenly, Fatma stops in her tracks near the new releases section. Her eyes widen and she quickly extends her hand to pick up a book. She flips the book over, seemingly scrutinizing the back cover. Her eyebrows are raised, and her mouth opens slightly, as though in disbelief. Sophie, noticing Fatma's abrupt halt, walks over and looks at the book that Fatma is holding.",
+        "question_name": "Fatma",
+        "answer": "Fatma and Sophie are in a well-lit bookstore. Fatma abruptly stops near the new releases section. Her sudden stop suggests strong interest in a specific book. Fatma's eyes widen as she reaches for a book. This suggests surprise or excitement. Fatma flips the book over to examine the back cover. Flipping it over shows she wants to engage further with the content. Fatma's raises her eyebrows and slightly opens her mouth. This indicates disbelief or astonishment. Sophie notices Fatma's reaction and walks over to see what she is holding. Sophie’s decision to walk over suggests that Fatma's excitement is noticeable and impactful. Fatma likely feels excitement or awe about the book."
+    }
+]

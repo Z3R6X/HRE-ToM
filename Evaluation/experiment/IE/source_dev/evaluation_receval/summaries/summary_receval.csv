@@ -1,0 +1,2 @@
+,task,inter-correctness (min),inter-correctness (mean),intra-correctness (min) (k=0),intra-correctness (min) (k=4),intra-correctness (min) (k=8),intra-correctness (mean) (k=0),intra-correctness (mean) (k=4),intra-correctness (mean) (k=8)
+0,infer_emotion,0.20701465010643005,0.6828760504722595,0.00032009361893869936,0.0003169608535245061,0.00031108298571780324,0.35390183329582214,0.3013841211795807,0.35315006971359253
