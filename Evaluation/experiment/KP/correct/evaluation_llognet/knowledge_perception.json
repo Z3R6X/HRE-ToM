@@ -341,13 +341,13 @@
         "means": {
             "weighted_entailment-chain (max)": 0.5434904098510742,
             "weighted_non-contradiction-chain (max)": 0.7086371183395386,
-            "entailement-chain (max)": 0.7046241760253906,
+            "entailment-chain (max)": 0.7046241760253906,
             "non-contradiction-chain (max)": 0.8008506298065186
         },
         "results": [
             {
                 "id": 0,
-                "entailement-chain (max)": 0.7724190981053671,
+                "entailment-chain (max)": 0.7724190981053671,
                 "non-contradiction-chain (max)": 0.8497354286516077,
                 "weighted_entailment-chain (max)": 0.5755199957582893,
                 "weighted_non-contradiction-chain (max)": 0.7816403833210583,
@@ -378,7 +378,7 @@
             },
             {
                 "id": 1,
-                "entailement-chain (max)": 0.6269386861231694,
+                "entailment-chain (max)": 0.6269386861231694,
                 "non-contradiction-chain (max)": 0.7688961897114669,
                 "weighted_entailment-chain (max)": 0.5376757190407395,
                 "weighted_non-contradiction-chain (max)": 0.6548713961868768,
@@ -401,7 +401,7 @@
             },
             {
                 "id": 2,
-                "entailement-chain (max)": 0.9193391401798858,
+                "entailment-chain (max)": 0.9193391401798858,
                 "non-contradiction-chain (max)": 0.9287162475928753,
                 "weighted_entailment-chain (max)": 0.8795681517363308,
                 "weighted_non-contradiction-chain (max)": 0.888539601634855,
@@ -424,7 +424,7 @@
             },
             {
                 "id": 3,
-                "entailement-chain (max)": 0.44268084854013784,
+                "entailment-chain (max)": 0.44268084854013784,
                 "non-contradiction-chain (max)": 0.6664605047929741,
                 "weighted_entailment-chain (max)": 0.25853864610260063,
                 "weighted_non-contradiction-chain (max)": 0.6033575373449865,
@@ -455,7 +455,7 @@
             },
             {
                 "id": 4,
-                "entailement-chain (max)": 0.8168924151405703,
+                "entailment-chain (max)": 0.8168924151405703,
                 "non-contradiction-chain (max)": 0.8344536102700829,
                 "weighted_entailment-chain (max)": 0.6063813474047675,
                 "weighted_non-contradiction-chain (max)": 0.6294449419479056,
@@ -482,7 +482,7 @@
             },
             {
                 "id": 5,
-                "entailement-chain (max)": 0.4476506723502004,
+                "entailment-chain (max)": 0.4476506723502004,
                 "non-contradiction-chain (max)": 0.6764590987613923,
                 "weighted_entailment-chain (max)": 0.30759605453314987,
                 "weighted_non-contradiction-chain (max)": 0.5963479531776572,
@@ -505,7 +505,7 @@
             },
             {
                 "id": 6,
-                "entailement-chain (max)": 0.845446965422211,
+                "entailment-chain (max)": 0.845446965422211,
                 "non-contradiction-chain (max)": 0.8757340080829764,
                 "weighted_entailment-chain (max)": 0.782930967069706,
                 "weighted_non-contradiction-chain (max)": 0.8112622818882939,
@@ -524,7 +524,7 @@
             },
             {
                 "id": 7,
-                "entailement-chain (max)": 0.765625237611836,
+                "entailment-chain (max)": 0.765625237611836,
                 "non-contradiction-chain (max)": 0.8063500662230983,
                 "weighted_entailment-chain (max)": 0.3997126471850152,
                 "weighted_non-contradiction-chain (max)": 0.7036335274884605,
