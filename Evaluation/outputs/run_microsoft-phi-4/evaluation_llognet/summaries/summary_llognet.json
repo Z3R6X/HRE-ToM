@@ -1,0 +1,42 @@
+{
+    "knowledge_perception": {
+        "source_grounding": {
+            "premise_agreement (min)": 0.6168003082275391,
+            "conclusion_agreement (min)": 0.29200562834739685,
+            "premise_agreement (mean)": 0.8503024578094482,
+            "conclusion_agreement (mean)": 0.6129235625267029
+        },
+        "step_entailment": {
+            "entailment_probability (min)": 0.1881018429994583,
+            "entailment_probability (mean)": 0.5555330514907837,
+            "non-contradiction_probability (min)": 0.4640175700187683,
+            "non-contradiction_probability (mean)": 0.7433789372444153
+        },
+        "chain_entailment": {
+            "weighted_entailment-chain (max)": 0.6054737567901611,
+            "weighted_non-contradiction-chain (max)": 0.6790482401847839,
+            "entailment-chain (max)": 0.7624631524085999,
+            "non-contradiction-chain (max)": 0.8469349145889282
+        }
+    },
+    "inferring_emotion": {
+        "source_grounding": {
+            "premise_agreement (min)": 0.6678494215011597,
+            "conclusion_agreement (min)": 0.7170028686523438,
+            "premise_agreement (mean)": 0.8559603691101074,
+            "conclusion_agreement (mean)": 0.8610615730285645
+        },
+        "step_entailment": {
+            "entailment_probability (min)": 0.13602708280086517,
+            "entailment_probability (mean)": 0.5344459414482117,
+            "non-contradiction_probability (min)": 0.48482051491737366,
+            "non-contradiction_probability (mean)": 0.7627821564674377
+        },
+        "chain_entailment": {
+            "weighted_entailment-chain (max)": 0.6686591506004333,
+            "weighted_non-contradiction-chain (max)": 0.7633489966392517,
+            "entailment-chain (max)": 0.7612963318824768,
+            "non-contradiction-chain (max)": 0.8651685118675232
+        }
+    }
+}

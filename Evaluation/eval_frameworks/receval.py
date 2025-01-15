@@ -16,19 +16,20 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'u
 from util.eval import split_all_chains, calculate_means
 
 
+# Most of the functions in this file were taken from:
+# https://github.com/archiki/ReCEval/blob/main/evaluate_receval.py
+# with only small modifications
 class ReCEval:
     def __init__(
             self,
-            cache_dir="/data/hleier/MA/EvalModels",
+            cache_dir=None,
             device="cuda",
             return_full_scores=False,
-            #verbose=0
         ):
 
         self.name = "receval"
         self.device = device
         self.return_full_scores = return_full_scores
-        #self.verbose = verbose
 
         self.K = [0, 4, 8]
 
@@ -193,10 +194,6 @@ class ReCEval:
         input = self.ent_tokenizer(premise, hypothesis, truncation=True, return_tensors="pt").to(self.device)
         with torch.no_grad():
             
-            # Environment was modified !!! "np.int" => "int"
-            #File "/home/hleier/anaconda3/envs/ReCEval/lib/python3.9/site-packages/transformers/models/deberta_v2/modeling_deberta_v2.py", line 539, in make_log_bucket_position
-            #bucket_pos = np.where(abs_pos <= mid, relative_pos, log_pos * sign).astype(np.int)
-
             output = self.ent_model(input["input_ids"].to(self.device))  # device = "cuda:0" or "cpu"
         prediction = torch.softmax(output["logits"][0], -1).tolist()
         label_names = ["entailment", "neutral", "contradiction"]

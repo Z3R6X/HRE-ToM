@@ -15,16 +15,15 @@ class LLogNet:
     def __init__(
             self,
             device_map="auto",
-            cache_dir="/data/hleier/MA/EvalModels",
+            cache_dir=None,
             load_in_8bit=False,
             load_in_4bit=False,
             apply_splitting=False,
-            verbose=2,
+            verbose=0,
             return_full_scores=False
         ):
 
         self.name = "llognet"
-        #self.device_map = device_map
         self.verbose = verbose
         self.apply_splitting = apply_splitting
         self.return_full_scores = return_full_scores
@@ -269,8 +268,12 @@ class LLogNet:
                 premise["src_entailment"] = premise_agreement_prob
 
             # Get mean and min premise aggreement probability
-            avg_premise_agreement_prob = sum(premise_agreement_probs) / len(premise_agreement_probs)
-            min_premise_agreement_prob = min(premise_agreement_probs)
+            if premise_agreement_probs:
+                avg_premise_agreement_prob = sum(premise_agreement_probs) / len(premise_agreement_probs)
+                min_premise_agreement_prob = min(premise_agreement_probs)
+            else:
+                avg_premise_agreement_prob = 0
+                min_premise_agreement_prob = 0
             
             print("\nSource Grounding (Premises)") if self.verbose >= 2 else None
             print(f"Mean Premise Agreement Prob: {avg_premise_agreement_prob}") if self.verbose >= 2 else None
@@ -317,7 +320,6 @@ class LLogNet:
             # Initialize list to store previous conclusion
             prev_concs = [] 
 
-            #contradiction_probs = []
             # Initialize lists to store probabilities for Step Entailment
             non_contradiction_probs = []
             entailment_probs = []
@@ -325,13 +327,8 @@ class LLogNet:
             # Initialize list to store the graph structure and probabilities for Chain Entailment 
             entailment_dicts = []
 
-            #max_probs = []
-            #mean_probs = []
-
             # Initialite edge ID
             edge_id = 0
-
-            #src_entailment = []
 
             for conc in conclusion_list:
 
@@ -468,7 +465,7 @@ class LLogNet:
             # Save results
             ce_result = {
                 "id": rc_id,
-                "entailement-chain (max)": max(ent_chain_probs_list),
+                "entailment-chain (max)": max(ent_chain_probs_list),
                 "non-contradiction-chain (max)": max(non_cont_chain_probs_list),
                 "weighted_entailment-chain (max)": max(w_ent_chain_probs_list),
                 "weighted_non-contradiction-chain (max)": max(w_non_cont_chain_probs_list)
@@ -524,7 +521,7 @@ class LLogNet:
                 keys=[
                     "weighted_entailment-chain (max)",
                     "weighted_non-contradiction-chain (max)",
-                    "entailement-chain (max)",
+                    "entailment-chain (max)",
                     "non-contradiction-chain (max)"
                 ]
             ),

@@ -49,7 +49,7 @@ if __name__ == "__main__":
     parser.add_argument("--names", type=str, default="common_names.json")
     args = parser.parse_args()
 
-    # Insert OpenAI API key
+    # Get OpenAI API key from environment
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
     # Load basic scenarios from file

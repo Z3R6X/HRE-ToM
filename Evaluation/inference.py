@@ -44,7 +44,7 @@ def main():
     parser.add_argument("--model_kwargs", type=str, default=None)
     parser.add_argument("--tasks", nargs='+', default=None)
     parser.add_argument("--working_dir", default="Evaluation/outputs", type=str)
-    parser.add_argument("--cache_dir", default="/data/hleier/MA/", type=str)
+    parser.add_argument("--cache_dir", default=None, type=str)
     parser.add_argument("--inference_settings", type=str, default="Evaluation/inference_settings.json")
     args = parser.parse_args()
     
@@ -77,6 +77,7 @@ def main():
         device_map="auto",
         model_kwargs=kwargs,
     )
+    pipeline.tokenizer.pad_token_id = pipeline.tokenizer.eos_token_id
 
     # Create the info dict for the run
     run_info = {
@@ -109,10 +110,10 @@ def main():
         dataset = transform_list_to_dataset(data_list)
 
         # Create CoT examples if specified
-        if inference_settings["num_cot"]:
+        if inference_settings["num_cot_examples"]:
             cot_messages = create_cot_examples(
                 json_file= tasklib.get_cot_file(),
-                num_examples=inference_settings["num_cot"],
+                num_examples=inference_settings["num_cot_examples"],
                 tasklib = tasklib,
                 prompt_template = prompt_template
             )     

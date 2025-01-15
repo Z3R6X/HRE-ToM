@@ -13,15 +13,13 @@ from util.eval import split_all_chains, calculate_means
 class Roscoe:
     def __init__(
             self,
-            cache_dir="/data/hleier/MA/EvalModels",
+            cache_dir=None,
             device="cuda",
             return_full_scores=False,
-            #verbose=0
         ):
         
         self.name = "roscoe"
         self.return_full_scores = return_full_scores
-        #self.verbose = verbose
 
         # Embedding
         self.embedding_model = SentenceTransformer(

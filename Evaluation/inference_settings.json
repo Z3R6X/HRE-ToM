@@ -1,7 +1,7 @@
 {
     "system_prompt": "Your task is to answer a question to a given scenario.",
     "prompt_template": "Read the scenario and answer the question by using step by step reasoning:\n\nScenario: {}\n\nQuestion: {}",
-    "num_cot": 0,
+    "num_cot_examples": 0,
     "generation_args": {
         "max_new_tokens": 250,
         "do_sample": 0,

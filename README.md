@@ -6,13 +6,13 @@ This repository contains:
 - An evaluation script to evaluate the produced reasoning chains with holistic evaluation frameworks. Next to **LLogNet**, the other framworks **ROSCOE** and **ReCEval** are available.
 - An experiment to test the capabilities of the holistic evaluation frameworks, including: 
 	- Correct and perturbed reasoning chains for both tasks.
-	- Two Jupyter-notebook for statistical evaluation.
+	- Two Jupyter-notebook for evaluation.
 - A scripts to test the performance of NLI models on non-deductive reasoning chains.
 - A script to investigate biases in LLM regarding spatial and temporal reasoning.
 
-![[LLogNet_Overview.png]]
+![Overview of LLogNet](imgs/LLogNet_Overview.png))
 ## Setup
-This repository requires multiple conda environments used for different tasks. The `environment/` directory contains the necessary `.yml` files for installing these environments. To setup the environments follow the instructions:
+This repository requires multiple conda environments used for different tasks. The `environment/` directory contains the necessary `.yml` files for installing these environments. This is done to prevent dependency issues. To setup the environments follow the instructions:
 - Install this environment to generate data for the benchmarks:
 	```bash
 	conda env create -f envs/datagen_environment.yml
@@ -43,7 +43,7 @@ The **Inferring Emotion** task aims to evaluate the ability to infer the emotion
 Details:
 - Objective: Infer the emotion of one person.
 - Question: What emotion might `person` experience?
-- Dataset Size: 52 scenarios.
+- Dataset Size: 56 scenarios.
 
 ### Knowledge-Perception
 The Knowledge-Perception task aims to evaluate the ability to link perception to knowledge. Each scenario involves one person moving an object to a new location and another person leaving and later returning the room. The second person either observes or does not observe the other person moving the object. 
@@ -61,7 +61,7 @@ The directory `DataGeneration` contains scripts to generate the scenarios of the
 - To generate the scenarios for the Inferring Emotion task run `DataGeneration/inferring_emotion/generate_scenarios.py`.
 	Arguments:
     - `--num_samples` (optional): Number of samples generated per basic scenario, default: `1`
-    - `--basic_scenarios` (optional): path to a JSON file containing basic scenarios, default: `basic_scenarios.json`
+    - `--basic_scenarios` (optional): Path to a JSON file containing basic scenarios, default: `basic_scenarios.json`
     - `--names` (optional): JSON file with common names, default: `common_names.json`
     Example:
 	```bash
@@ -70,13 +70,13 @@ The directory `DataGeneration` contains scripts to generate the scenarios of the
 - To generate the scenarios for the Knowledge-Perception task run `DataGeneration/knowledge-perception/generate_scenarios.py`.
     Arguments:
     - `--num_samples` (optional): Number of samples generated per basic scenario, default: `1`
-    - `--basic_scenarios` (optional): path to a JSON file containing basic scenarios, default: `basic_scenarios.json`
+    - `--basic_scenarios` (optional): Path to a JSON file containing basic scenarios, default: `basic_scenarios.json`
     - `--names` (optional): JSON file with common names, default: `common_names.json`
 	Example:
 	```bash
 	python DataGeneration/knowledge-perception/generate_scenarios.py
 	```
-Ensure that the required JSON files are available in the appropriate directories when running the scripts.
+Ensure that the required `JSON` files are available in the appropriate directories when running the scripts.
 
 ## Evaluation
 The benchmark evaluates models on the two generated ToM tasks: **Inferring Emotion** and **Knowledge-Perception**. The evaluation process is divided in two parts:
@@ -93,7 +93,7 @@ Follow the steps below to perform inference:
 	Arguments: 
 	- `--model` (required): Huggingface model ID of the model to be tested.
 	- `--model_kwargs` (optional): Keyword arguments for the model.
-	- `--tasks` (required): Tasks to be tested. Combine tasks using `+`.
+	- `--tasks` (required): Tasks to be tested, multiple tasks can be listed.
 	- `--working_dir` (optional): Directory where the model output is stored. Default: `Evaluation/outputs`.
 	- `--cache_dir` (optional): Directory where model checkpoints are stored.
 	- `--inference_settings` (optional): Path to a JSON file that contains prompting and sampling settings for inference. Default: `Evaluation/inference_settings.json`.
@@ -110,8 +110,8 @@ Task files have the following components:
 	- `get_question_template`: Returns the question template.
 	- `get_question`: Formats the question based on the scenario. 
 	- `get_data_file`: Returns the path to the data file for the task. 
-	- `get_cot_file`: Returns the path to the Chain-of-Thought (CoT) example file for the task.
-To add a new task to the benchmark, create a python file `custom_task.py` containing the same functions and add a data file. The new task can then be used by `--tasks custom_task`.
+	- `get_cot_file`: Returns the path to the in-context Chain-of-Thought (CoT) example file for the task.
+
 To include a new task in the benchmark: 
 1. Create a file `custom_task.py` in the `tasks/` directory. 
 2. Define the question template and implement the required functions (`get_question_template`, `get_question`, `get_data_file`, `get_cot_file`). 
@@ -132,7 +132,13 @@ The Inference Setting file contains:
 To use custom inference settings, create a new JSON file `custom_settings.json` with the same structure and keys as `inference_settings.json`.  The custom file can then be used with the `--inference_settings custom_settings.json` argument.
 
 ### Holistic Reasoning Evaluation
-The benchmark contains three holisitc reasoning evaluation frameworks: **LLogNet**, **ROSCOE** and **ReCEval**, designed to assess the quality of the generated reasoning chains. Follow the steps below to perform the evaluation.
+The benchmark contains three holisitc reasoning evaluation frameworks: **LLogNet**, **ROSCOE** and **ReCEval**, designed to assess the quality of the generated reasoning chains. 
+
+For detailed information on ROSCOE and ReCEval vistion the following links:
+- [arXiv - ROSCOE](https://arxiv.org/abs/2212.07919)
+- [arXiv - ReCEval](https://arxiv.org/abs/2304.10703)
+
+Follow the steps below to perform the evaluation.
 - When using **LLogNet** or **ROSCOE**, activate the normal evaluation environment:
 	```bash
 	conda activate eval
@@ -173,7 +179,7 @@ All evaluation frameworks include:
 ## Experiments
 To validate the effectiveness of the evaluation frameworks on the Inferring Emotion and Knowledge-Perception tasks, experiments were conducted for each task. The goal of the experiments was to determine if the metrics of the used evaluation frameworks are able to reliably differentiate between correct and perturbed reasoning chains. 
 
-**Note**: The evaluation results of the correct and perturbed reasoning chains for Inferring Emotion and Knowledge-Perception is already included in the `experiment/IE` and the `experiment/KP` directory and it is therefore not necessary to run the evaluation again.
+**Note**: The evaluation results of the correct and perturbed reasoning chains for Inferring Emotion and Knowledge-Perception are already included in the `experiment/IE` and the `experiment/KP` directory and it is therefore not necessary to run the evaluation again.
 
 ### Inferring Emotion Task
 In the Inferring Emotion task, four groups of reasoning chains were created:

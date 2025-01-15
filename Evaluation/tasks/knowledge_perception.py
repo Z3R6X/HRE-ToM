@@ -10,8 +10,8 @@ def get_question_template():
 
 
 def get_data_file():
-    return "Evaluation/data/knowledge_perception_test.json" 
+    return "Evaluation/data/knowledge_perception.json" 
 
 
 def get_cot_file(): # DUMMY!
-    return "Evaluation/data/knowledge_perception.json" 
+    return "Evaluation/data/knowledge_perception_cot.json" 

@@ -1,0 +1,236 @@
+[
+    {
+        "id": 0,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Mariya excuses herself to go to the kitchen to prepare some snacks. While she's gone, Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+        "question_name": "Mariya",
+        "object": "remote control",
+        "target": "unobserved",
+        "prediction": "To determine where Mariya thinks the remote control is, we need to analyze the sequence of events and Mariya's actions.\n\n1. Initially, Muhammad picks up the remote control from the coffee table and places it in a small basket on the side table.\n2. Mariya excuses herself to go to the kitchen, so she is not present when Muhammad moves the remote control to the drawer in the TV stand.\n3. When Mariya returns to the living room, she sees Muhammad tidying up the living room, but there is no indication that she notices the remote control's new location.\n4. Muhammad is still tidying up the living room, which suggests that he is not using the remote control at the moment.\n\nGiven these points, Mariya likely thinks the remote control is still in the small basket on the side table, as she has not seen Muhammad move it to the drawer in the TV stand and is not aware of its new location."
+    },
+    {
+        "id": 1,
+        "setting": "living room",
+        "scenario": "Muhammad and Mariya are in the living room, having a casual conversation. Muhammad picks up a remote control from the coffee table to turn on the television. After changing the channel, he places the remote control in a small basket on the side table. Muhammad moves the remote control from the small basket on the side table to a drawer in the TV stand. Muhammad then starts tidying up the living room, arranging the magazines on the coffee table and fluffing the cushions on the couch. Mariya excuses herself to go to the kitchen to prepare some snacks. Mariya returns to the living room, carrying a tray of snacks and drinks. Muhammad helps her to set the snacks on the coffee table and then resumes his task of tidying up the living room.",
+        "question_name": "Mariya",
+        "object": "remote control",
+        "target": "observed",
+        "prediction": "To determine where Mariya thinks the remote control is, we need to analyze the sequence of events and Mariya's actions.\n\n1. Muhammad picks up the remote control from the coffee table and places it in a small basket on the side table.\n2. Muhammad then moves the remote control from the small basket on the side table to a drawer in the TV stand.\n3. Mariya excuses herself to go to the kitchen and returns with snacks and drinks.\n4. Muhammad helps Mariya set the snacks on the coffee table and then continues tidying up the living room.\n\nSince Mariya was not present when Muhammad moved the remote control from the small basket to the TV stand's drawer, she would not have seen this action. \n\nWhen Mariya returns to the living room, she sees that Muhammad has moved the snacks to the coffee table, but she does not see the remote control on the coffee table or in the small basket on the side table. \n\nGiven that Muhammad has been tidying up the living room, Mariya might assume that Muhammad has put the remote control in a place where it is out of sight but still accessible, such as the TV stand's drawer."
+    },
+    {
+        "id": 2,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Martina leaves the garage to fetch some refreshments. While Martina is gone, Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Martina returns to the garage with some cold drinks. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+        "question_name": "Martina",
+        "object": "hammer",
+        "target": "unobserved",
+        "prediction": "To determine where Martina thinks the hammer is, we need to follow the sequence of events and Martina's perspective.\n\n1. Rapha\u00ebl picks up the hammer and uses it.\n2. After using the hammer, Rapha\u00ebl places it in the toolbox.\n3. Martina leaves the garage to fetch some refreshments.\n4. While Martina is away, Rapha\u00ebl moves the hammer from the toolbox to a shelf.\n5. Martina returns to the garage with some cold drinks.\n\nSince Martina left the garage before Rapha\u00ebl moved the hammer from the toolbox to the shelf, she would not have seen this action. From her perspective, the last action she saw was Rapha\u00ebl placing the hammer in the toolbox. Therefore, Martina thinks the hammer is in the toolbox."
+    },
+    {
+        "id": 3,
+        "setting": "garage",
+        "scenario": "Rapha\u00ebl and Martina are in the garage working on a weekend project. Martina leaves the garage to fetch some refreshments. Martina returns to the garage with some cold drinks. Rapha\u00ebl picks up a hammer they need for their work. The hammer is placed in a toolbox after Rapha\u00ebl uses it. Rapha\u00ebl then continues to organize the garage, placing tools in their designated spots. Rapha\u00ebl moves the hammer from the toolbox to a shelf. Rapha\u00ebl resumes his task of organizing the garage, this time focusing on cleaning up the workbench.",
+        "question_name": "Martina",
+        "object": "hammer",
+        "target": "observed",
+        "prediction": "To determine where Martina thinks the hammer is, we need to analyze the sequence of events and Martina's actions and knowledge.\n\n1. Martina leaves the garage to fetch refreshments, which means she is not present when Rapha\u00ebl picks up the hammer.\n2. When Martina returns to the garage, she sees Rapha\u00ebl moving the hammer from the toolbox to a shelf. \n3. Martina does not see Rapha\u00ebl put the hammer in the toolbox initially, but she does see him move it from the toolbox to a shelf.\n\nBased on this information, Martina's last observation is that the hammer is on the shelf. Therefore, Martina thinks the hammer is on the shelf."
+    },
+    {
+        "id": 4,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Lin steps out of the office to attend a meeting. While Lin is away, Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+        "question_name": "Lin",
+        "object": "stapler",
+        "target": "unobserved",
+        "prediction": "To determine where Lin thinks the stapler is, we need to follow the sequence of events and consider Lin's perspective.\n\n1. Liam initially picks up the stapler and places it in the desk drawer.\n2. Lin steps out of the office for a meeting, so she is not present when Liam moves the stapler.\n3. Liam moves the stapler from the desk drawer to a stationery organizer on his desk while Lin is away.\n4. After Lin returns from her meeting, she is unaware of the stapler's new location.\n\nGiven that Lin was not present when Liam moved the stapler and did not see the stapler being moved, she would likely assume the stapler is still in its original location, which is the desk drawer."
+    },
+    {
+        "id": 5,
+        "setting": "office",
+        "scenario": "Liam and Lin are working in the office together. Liam picks up a stapler to fasten some documents. The stapler is then placed in the desk drawer. Liam moves the stapler from the desk drawer to a stationery organizer on his desk. Liam then continues his work, focusing on preparing a presentation for their team. Lin steps out of the office to attend a meeting. After her meeting, Lin returns to the office. Liam, having finished his presentation, starts working on his weekly report.",
+        "question_name": "Lin",
+        "object": "stapler",
+        "target": "observed",
+        "prediction": "To determine where Lin thinks the stapler is, we need to follow the sequence of events and consider Lin's perspective.\n\n1. Liam picks up the stapler to fasten some documents.\n2. Liam places the stapler in the desk drawer.\n3. Liam moves the stapler from the desk drawer to a stationery organizer on his desk.\n4. Lin steps out of the office to attend a meeting.\n5. After her meeting, Lin returns to the office.\n6. Liam, having finished his presentation, starts working on his weekly report.\n\nSince Lin was not present when Liam moved the stapler from the desk drawer to the stationery organizer, she would not be aware of this change. From her perspective, the last time she saw the stapler was when it was in the desk drawer. \n\nTherefore, Lin thinks the stapler is in the desk drawer."
+    },
+    {
+        "id": 6,
+        "setting": "bar",
+        "scenario": "Samantha and Alice are enjoying an evening at a lively bar downtown. Samantha interacts with a pool cue, selecting it from the rack near the pool table. She places the pool cue in a holder on the side of the pool table. Alice decides to step out of the bar for a bit, maybe to take a phone call or get some fresh air. While Alice is gone, Samantha moves the pool cue from the holder on the side of the pool table to a stand near the entrance. Samantha then goes to the bar counter and orders a round of drinks for when Alice returns. After a while, Alice comes back into the bar. Samantha, seeing Alice return, goes back to the counter to collect the drinks she ordered.",
+        "question_name": "Alice",
+        "object": "pool cue",
+        "target": "unobserved",
+        "prediction": "To determine where Alice thinks the pool cue is, we need to follow the events of the scenario step by step.\n\n1. Initially, Alice places the pool cue in a holder on the side of the pool table.\n2. Alice steps out of the bar, and while she is away, Samantha moves the pool cue from the holder on the side of the pool table to a stand near the entrance.\n3. Alice returns to the bar after a while.\n\nSince Alice was not present when Samantha moved the pool cue, she would not have seen the cue being moved. Therefore, Alice would still think the pool cue is in its original location, which is the holder on the side of the pool table."
+    },
+    {
+        "id": 7,
+        "setting": "bar",
+        "scenario": "Samantha and Alice are enjoying an evening at a lively bar downtown. Alice decides to step out of the bar for a bit, maybe to take a phone call or get some fresh air. After a while, Alice comes back into the bar. Samantha interacts with a pool cue, selecting it from the rack near the pool table. She places the pool cue in a holder on the side of the pool table. Samantha moves the pool cue from the holder on the side of the pool table to a stand near the entrance. Samantha then goes to the bar counter and orders a round of drinks for when Alice returns. Samantha, seeing Alice return, goes back to the counter to collect the drinks she ordered.",
+        "question_name": "Alice",
+        "object": "pool cue",
+        "target": "observed",
+        "prediction": "To determine where Alice thinks the pool cue is, we need to follow the events of the scenario and consider Alice's perspective.\n\n1. Alice steps out of the bar for a bit, leaving Samantha inside.\n2. While Alice is out, Samantha interacts with the pool cue, placing it in a holder on the side of the pool table.\n3. Samantha then moves the pool cue from the holder on the side of the pool table to a stand near the entrance.\n4. Alice returns to the bar.\n\nSince Alice was not present when Samantha moved the pool cue from the holder to the stand near the entrance, Alice would not have seen this action. From Alice's perspective, the last time she saw the pool cue, it was in the holder on the side of the pool table. Therefore, Alice would likely think the pool cue is still in the holder on the side of the pool table."
+    },
+    {
+        "id": 8,
+        "setting": "dining room",
+        "scenario": "Beatriz and Sara are having breakfast in the kitchen. Beatriz interacts with a coffee mug, taking a sip from it. She places the coffee mug in the sink. Sara leaves the kitchen to answer a phone call. While Sara is gone, Beatriz moves the coffee mug from the sink to the dishwasher. Beatriz then sweeps the kitchen floor. Sara returns to the dining room after finishing her phone call. Beatriz continues her task by mopping the dining room floor.",
+        "question_name": "Beatriz",
+        "object": "coffee mug",
+        "target": "unobserved",
+        "prediction": "To determine where Beatriz thinks the coffee mug is, we need to follow the sequence of events and her actions.\n\n1. Beatriz takes a sip from the coffee mug and then places it in the sink.\n2. Sara leaves the kitchen, and while she is gone, Beatriz moves the coffee mug from the sink to the dishwasher.\n3. After moving the coffee mug, Beatriz sweeps the kitchen floor.\n4. Sara returns to the dining room, and Beatriz continues her task by mopping the dining room floor.\n\nSince Beatriz moved the coffee mug from the sink to the dishwasher while Sara was away, and she didn't mention or show any actions indicating she thinks the coffee mug is anywhere else, we can infer that Beatriz thinks the coffee mug is in the dishwasher."
+    },
+    {
+        "id": 9,
+        "setting": "dining room",
+        "scenario": "Beatriz and Sara are having breakfast in the dining room. Beatriz interacts with a coffee mug, taking a sip from it. She places the coffee mug in the sink. Beatriz moves the coffee mug from the sink to the dishwasher. Sara leaves the dining room to answer a phone call. Beatriz then sweeps the dining room floor. Sara returns to the dining room after finishing her phone call. Beatriz continues her task by mopping the dining room floor.",
+        "question_name": "Beatriz",
+        "object": "coffee mug",
+        "target": "observed",
+        "prediction": "To determine where Beatriz thinks the coffee mug is, we need to follow the sequence of events and her actions.\n\n1. Beatriz takes a sip from the coffee mug and then places it in the sink. \n2. She then moves the coffee mug from the sink to the dishwasher.\n\nBased on these actions, it can be inferred that Beatriz knows the current location of the coffee mug is in the dishwasher."
+    },
+    {
+        "id": 10,
+        "setting": "waiting room",
+        "scenario": "Aaron and Samuel are seated in the waiting room of a dental clinic. Aaron picks up a health magazine from the coffee table. Aaron places the health magazine in his backpack. Samuel is called in by the dentist and he leaves the waiting room. After Samuel leaves, Aaron moves the health magazine from his backpack to a nearby empty magazine rack. Aaron then cleans up the coffee table, arranging the scattered magazines neatly. After his check-up, Samuel returns to the waiting room. Aaron, wanting to pass time, starts filling out a crossword puzzle in a newspaper in the waiting room.",
+        "question_name": "Samuel",
+        "object": "health magazine",
+        "target": "unobserved",
+        "prediction": "To determine where Samuel thinks the health magazine is, we need to analyze the sequence of events and Aaron's actions.\n\n1. Initially, Aaron picks up the health magazine from the coffee table.\n2. Aaron places the health magazine in his backpack.\n3. Samuel leaves the waiting room.\n4. After Samuel leaves, Aaron moves the health magazine from his backpack to a nearby empty magazine rack.\n5. Aaron cleans up the coffee table, arranging the scattered magazines neatly.\n\nSince Samuel leaves the waiting room before Aaron moves the health magazine to the magazine rack, Samuel would not have seen Aaron move the magazine. \n\nWhen Samuel returns to the waiting room, he would likely assume that the health magazine is still in its original location, which is in Aaron's backpack, as that is the last place he saw it before he left the waiting room."
+    },
+    {
+        "id": 11,
+        "setting": "waiting room",
+        "scenario": "Aaron and Samuel are seated in the waiting room of a dental clinic. Aaron picks up a health magazine from the coffee table. Aaron places the health magazine in his backpack. Aaron moves the health magazine from his backpack to a nearby empty magazine rack. Samuel is called in by the dentist and he leaves the waiting room. Aaron then cleans up the coffee table, arranging the scattered magazines neatly. After his check-up, Samuel returns to the waiting room. Aaron, wanting to pass time, starts filling out a crossword puzzle in a newspaper in the waiting room.",
+        "question_name": "Samuel",
+        "object": "health magazine",
+        "target": "observed",
+        "prediction": "To determine where Samuel thinks the health magazine is, we need to analyze the sequence of events and Aaron's actions.\n\n1. Initially, Aaron picks up the health magazine from the coffee table.\n2. Aaron places the health magazine in his backpack.\n3. Aaron then moves the health magazine from his backpack to a nearby empty magazine rack.\n4. After Samuel leaves the waiting room, Aaron cleans up the coffee table, arranging the scattered magazines neatly.\n5. Samuel returns to the waiting room.\n\nSince Samuel left the waiting room before Aaron cleaned up the coffee table, Samuel would have seen the health magazine in Aaron's backpack. \n\nTherefore, Samuel thinks the health magazine is in Aaron's backpack."
+    },
+    {
+        "id": 12,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. The record album is placed in a cardboard box filled with other albums. Isabella leaves the basement to grab some cleaning supplies from upstairs. While Isabella is gone, Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Isabella returns to the basement with the cleaning supplies. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+        "question_name": "Isabella",
+        "object": "record album",
+        "target": "unobserved",
+        "prediction": "To determine where Isabella thinks the record album is, we need to follow the events of the scenario step by step.\n\n1. Initially, the record album is in a cardboard box filled with other albums.\n2. Isabella leaves the basement to grab some cleaning supplies, and Maria is left alone in the basement.\n3. While Isabella is gone, Maria moves the record album from the cardboard box to a plastic bin for more valuable items.\n4. Isabella returns to the basement with the cleaning supplies.\n\nSince Isabella left the basement before Maria moved the record album, Isabella would still think the record album is in the cardboard box where it was initially placed."
+    },
+    {
+        "id": 13,
+        "setting": "basement",
+        "scenario": "Maria and Isabella are organizing their shared basement. Maria interacts with a vintage record album they found. Isabella leaves the basement to grab some cleaning supplies from upstairs. Isabella returns to the basement with the cleaning supplies. The record album is placed in a cardboard box filled with other albums. Maria moves the record album from the cardboard box to a plastic bin for more valuable items. Maria then begins to dust off some of the old furniture in the basement. Maria continues her task, now using the supplies Isabella brought to thoroughly clean the basement floor.",
+        "question_name": "Isabella",
+        "object": "record album",
+        "target": "observed",
+        "prediction": "To determine where Isabella thinks the record album is, we need to follow the sequence of events and Isabella's actions.\n\n1. Isabella leaves the basement to grab some cleaning supplies from upstairs.\n2. When Isabella returns to the basement, she finds the record album in a cardboard box filled with other albums.\n3. After Isabella returns, Maria moves the record album from the cardboard box to a plastic bin for more valuable items.\n4. Isabella does not witness Maria moving the record album to the plastic bin.\n\nSince Isabella returns to the basement and sees the record album in the cardboard box, she would think the record album is still in the cardboard box filled with other albums."
+    },
+    {
+        "id": 14,
+        "setting": "kitchen",
+        "scenario": "David and Juan are in the kitchen, preparing for a dinner party. David picks up a sharp chef's knife to chop some vegetables. After chopping, David places the knife in a wooden knife block for safety. Juan, having finished his task of setting the table, leaves the kitchen to get some drinks from the basement. While Juan is away, David moves the knife from the wooden knife block to a drawer, deciding it's a safer storage location. David then continues with his tasks, now peeling potatoes for the main dish. Juan returns to the kitchen, carrying a bottle of wine and some soft drinks. David, having finished peeling the potatoes, begins to saut\u00e9 them in a pan.",
+        "question_name": "Juan",
+        "object": "knife",
+        "target": "unobserved",
+        "prediction": "To determine where Juan thinks the knife is, we need to follow the sequence of events and Juan's actions.\n\n1. Juan leaves the kitchen to get some drinks from the basement.\n2. While Juan is away, David moves the knife from the wooden knife block to a drawer.\n3. Juan returns to the kitchen, carrying a bottle of wine and some soft drinks.\n\nSince Juan left the kitchen before David moved the knife and has not seen the knife being moved, Juan would still think the knife is in the wooden knife block, as that is where he last saw it."
+    },
+    {
+        "id": 15,
+        "setting": "kitchen",
+        "scenario": "David and Juan are in the kitchen, preparing for a dinner party. David picks up a sharp chef's knife to chop some vegetables. After chopping, David places the knife in a wooden knife block for safety. David moves the knife from the wooden knife block to a drawer, deciding it's a safer storage location. Juan, having finished his task of setting the table, leaves the kitchen to get some drinks from the basement. David then continues with his tasks, now peeling potatoes for the main dish. Juan returns to the kitchen, carrying a bottle of wine and some soft drinks. David, having finished peeling the potatoes, begins to saut\u00e9 them in a pan.",
+        "question_name": "Juan",
+        "object": "knife",
+        "target": "observed",
+        "prediction": "To determine where Juan thinks the knife is, we need to follow the sequence of events and Juan's actions.\n\n1. David initially places the knife in a wooden knife block for safety.\n2. David then moves the knife from the wooden knife block to a drawer, deciding it's a safer storage location.\n3. Juan leaves the kitchen to get some drinks from the basement.\n4. When Juan returns to the kitchen, he does not see the knife in its original location (the wooden knife block) because David moved it to the drawer.\n5. Since Juan does not see the knife in the drawer (because David has not mentioned moving it back to the drawer), and he does not see it in the wooden knife block, Juan might assume the knife is still in the drawer, as that is the last known location where David placed it.\n\nTherefore, Juan likely thinks the knife is in the drawer."
+    },
+    {
+        "id": 16,
+        "setting": "living room",
+        "scenario": "Leordo and Leo are sitting in the living room, enjoying their leisure time. Leordo picks up the remote control to browse through different channels on the television. After finding a suitable channel, he places the remote control in a small wooden box near his seat. Leo then decides to leave the living room to go and prepare dinner in the kitchen. While Leo is away, Leordo decides to tidy up the living room. He moves the remote control from the small wooden box to a decorative ceramic bowl on the coffee table. Leordo then proceeds to dust off the furniture and arrange the magazines on the coffee table. After finishing the cooking, Leo returns to the living room to find it neat and tidy. Leordo, feeling accomplished, decides to water the indoor plants in the living room.",
+        "question_name": "Leo",
+        "object": "remote control",
+        "target": "unobserved",
+        "prediction": "To determine where Leo thinks the remote control is, we need to analyze the events that occurred after Leo left the living room.\n\n1. Leordo picks up the remote control and places it in a small wooden box near his seat.\n2. Leo leaves the living room, and Leordo is left alone.\n3. Leordo decides to tidy up the living room and moves the remote control from the small wooden box to a decorative ceramic bowl on the coffee table.\n4. Leo returns to the living room to find it neat and tidy.\n\nSince Leo left the living room before Leordo moved the remote control, Leo would still think the remote control is in the small wooden box near Leordo's seat."
+    },
+    {
+        "id": 17,
+        "setting": "living room",
+        "scenario": "Leordo and Leo are sitting in the living room, enjoying their leisure time. Leordo picks up the remote control to browse through different channels on the television. After finding a suitable channel, he places the remote control in a small wooden box near his seat. Leordo decides to tidy up the living room. He moves the remote control from the small wooden box to a decorative ceramic bowl on the coffee table. Leo then decides to leave the living room to go and prepare dinner in the kitchen. Leordo then proceeds to dust off the furniture and arrange the magazines on the coffee table. After finishing the cooking, Leo returns to the living room to find it neat and tidy. Leordo, feeling accomplished, decides to water the indoor plants in the living room.",
+        "question_name": "Leo",
+        "object": "remote control",
+        "target": "observed",
+        "prediction": "To determine where Leo thinks the remote control is, we need to analyze the sequence of events and Leo's actions.\n\n1. Leordo initially places the remote control in a small wooden box near his seat.\n2. Leordo then moves the remote control to a decorative ceramic bowl on the coffee table.\n3. After moving the remote control, Leo leaves the living room to prepare dinner.\n4. Leordo continues to tidy up the living room, dusting the furniture and arranging the magazines on the coffee table.\n5. Leo returns to the living room to find it neat and tidy.\n\nSince Leo leaves the living room before Leordo moves the remote control to the ceramic bowl, Leo would not have seen the remote control being moved. \n\nTherefore, when Leo returns to the living room, he would think the remote control is still in the small wooden box near his seat, as that is the last place he saw it before leaving."
+    },
+    {
+        "id": 18,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. While Somsak is gone, Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Somsak returns to the living room, freshly washed hands drying on his pants. Ali continues with his task in the living room, now dusting off the television screen.",
+        "question_name": "Somsak",
+        "object": "mystery novel",
+        "target": "unobserved",
+        "prediction": "To determine where Somsak thinks the mystery novel is, we need to follow the sequence of events and Somsak's knowledge at each step.\n\n1. Initially, Somsak sees the mystery novel on the coffee table when he is in the living room with Ali.\n2. Somsak excuses himself to use the restroom, leaving the living room. At this point, he knows the book is on the coffee table.\n3. While Somsak is away, Ali moves the book from the coffee table to a basket beside the couch.\n4. Somsak returns to the living room, but he doesn't see the book in its new location (the basket) because he hasn't looked around the room yet.\n5. Ali then moves the book from the basket to a bookshelf near the window.\n6. Somsak sees Ali cleaning the coffee table and dusting the television screen, but he doesn't see the book in its new location (the bookshelf).\n\nGiven these steps, Somsak's last knowledge of the book's location is that it was on the coffee table. Since he hasn't seen it in its new locations (the basket and the bookshelf), he would likely think the mystery novel is still on"
+    },
+    {
+        "id": 19,
+        "setting": "living room",
+        "scenario": "Ali and Somsak are sitting in the living room, chatting casually. Ali picks up a mystery novel from the coffee table, flipping through its pages. Ali then places the book in a small basket beside the couch. Somsak excuses himself to use the restroom, leaving the living room. Somsak returns to the living room, freshly washed hands drying on his pants. Ali moves the book from the basket to a bookshelf near the window. Ali then starts to clean the coffee table, arranging the magazines neatly. Ali continues with his task in the living room, now dusting off the television screen.",
+        "question_name": "Somsak",
+        "object": "mystery novel",
+        "target": "observed",
+        "prediction": "To determine where Somsak thinks the mystery novel is, we need to follow the sequence of events and Somsak's actions.\n\n1. Ali picks up the mystery novel from the coffee table and places it in a small basket beside the couch.\n2. Somsak excuses himself to use the restroom and leaves the living room.\n3. When Somsak returns, he sees the basket beside the couch, which now contains the mystery novel.\n4. Ali then moves the book from the basket to a bookshelf near the window.\n5. Somsak does not witness this action, as he is not in the living room at that time.\n\nSince Somsak last saw the mystery novel in the basket beside the couch, he would think the mystery novel is still in the basket beside the couch."
+    },
+    {
+        "id": 20,
+        "setting": "classroom",
+        "scenario": "Fatemeh and Emilia are in their science classroom. Fatemeh picks up a black marker from the teacher's desk and begins to write on the whiteboard. After she finishes writing, she places the marker in the whiteboard's tray. Emilia then excuses herself to go to the restroom. While Emilia is away, Fatemeh decides to change the color of the text she wrote on the board. She moves the marker from the whiteboard's tray to the desk drawer, where she finds a red marker. Fatemeh then begins to underline important points in red on the whiteboard. After a while, Emilia comes back into the classroom. Seeing Emilia return, Fatemeh continues with her task and starts explaining the underlined points to Emilia, turning their classroom into an interactive learning session.",
+        "question_name": "Emilia",
+        "object": "marker",
+        "target": "unobserved",
+        "prediction": "To determine where Emilia thinks the marker is, we need to follow the events of the scenario step by step.\n\n1. Initially, Fatemeh picks up a black marker from the teacher's desk and writes on the whiteboard.\n2. After finishing writing, Fatemeh places the marker in the whiteboard's tray.\n3. Emilia excuses herself to go to the restroom, and while she is away, Fatemeh moves the marker from the whiteboard's tray to the desk drawer.\n4. Emilia returns to the classroom.\n\nSince Emilia left the classroom before Fatemeh moved the marker to the desk drawer, Emilia would still think the marker is in the whiteboard's tray, as that is where she last saw it before she left."
+    },
+    {
+        "id": 21,
+        "setting": "classroom",
+        "scenario": "Fatemeh and Emilia are in their science classroom. Fatemeh picks up a black marker from the teacher's desk and begins to write on the whiteboard. After she finishes writing, she places the marker in the whiteboard's tray. Emilia then excuses herself to go to the restroom. After a while, Emilia comes back into the classroom. Fatemeh decides to change the color of the text she wrote on the board. She moves the marker from the whiteboard's tray to the desk drawer, where she finds a red marker. Fatemeh then begins to underline important points in red on the whiteboard. Fatemeh continues with her task and starts explaining the underlined points to Emilia, turning their classroom into an interactive learning session.",
+        "question_name": "Emilia",
+        "object": "marker",
+        "target": "observed",
+        "prediction": "To determine where Emilia thinks the marker is, we need to follow the sequence of events and Emilia's actions.\n\n1. Fatemeh picks up a black marker from the teacher's desk and writes on the whiteboard.\n2. Emilia excuses herself to go to the restroom.\n3. After Emilia returns, Fatemeh moves the marker from the whiteboard's tray to the desk drawer.\n4. Fatemeh finds a red marker in the desk drawer and uses it to underline points on the whiteboard.\n\nSince Emilia left the classroom before Fatemeh moved the marker to the desk drawer, Emilia would think the marker is in the whiteboard's tray."
+    },
+    {
+        "id": 22,
+        "setting": "classroom",
+        "scenario": "Noah and Lukn\u0117 are studying in the library. Noah picks up and reads a book on psychology. Noah places the book into his backpack. Lukn\u0117 decides to leave the library to grab a cup of coffee. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf. Noah then proceeds to write an essay on his laptop. After some time, Lukn\u0117 returns to the library with her coffee. Noah greets her and continues to work on his essay.",
+        "question_name": "Lukn\u0117",
+        "object": "book",
+        "target": "unobserved",
+        "prediction": "To determine where Lukn\u0117 thinks the book is, we need to follow the sequence of events and Lukn\u0117's actions.\n\n1. Lukn\u0117 leaves the library to grab a cup of coffee.\n2. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf.\n3. Lukn\u0117 returns to the library with her coffee.\n\nSince Lukn\u0117 was not present when Noah moved the book from his backpack to the library shelf, she would not have seen the book being moved. \n\nTherefore, when Lukn\u0117 returns to the library, she would likely think the book is still in Noah's backpack, as that is where she last saw it before leaving."
+    },
+    {
+        "id": 23,
+        "setting": "classroom",
+        "scenario": "Noah and Lukn\u0117 are studying in the library. Noah picks up and reads a book on psychology. Noah places the book into his backpack. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf. Lukn\u0117 decides to leave the library to grab a cup of coffee. Noah then proceeds to write an essay on his laptop. After some time, Lukn\u0117 returns to the library with her coffee. Noah greets her and continues to work on his essay.",
+        "question_name": "Lukn\u0117",
+        "object": "book",
+        "target": "observed",
+        "prediction": "To determine where Lukn\u0117 thinks the book is, we need to follow the sequence of events and analyze Lukn\u0117's actions and knowledge.\n\n1. Initially, Noah picks up the book and places it in his backpack.\n2. While Lukn\u0117 is away, Noah moves the book from his backpack to a library shelf.\n3. Lukn\u0117 returns to the library with her coffee.\n\nSince Lukn\u0117 was away when Noah moved the book from his backpack to the library shelf, she would not have seen the book being moved. \n\n4. When Lukn\u0117 returns to the library, she sees Noah working on his laptop but does not see the book. \n\nGiven that Lukn\u0117 does not see the book and does not know that Noah moved it from his backpack, she would likely assume that the book is still in Noah's backpack."
+    },
+    {
+        "id": 24,
+        "setting": "office",
+        "scenario": "Elias and Liam are both working in their shared office space. Elias is busy working on his laptop, typing away at a report due later in the day. After a while, he places the laptop in his desk drawer, a secure spot for his personal belongings. Liam then decides to step out of the office for a quick lunch break, leaving Elias alone in the room. Seeing an opportunity, Elias moves his laptop from his desk drawer to a filing cabinet, a more spacious spot that can accommodate his laptop and his pile of documents. While Liam is away, Elias continues working, organizing the office and tidying up their shared workspace. Upon Liam's return, Elias is still engrossed in his work, now filing documents and sorting out paperwork in the office.",
+        "question_name": "Liam",
+        "object": "laptop",
+        "target": "unobserved",
+        "prediction": "To determine where Liam thinks the laptop is, we need to follow the events of the scenario step by step:\n\n1. Elias initially places his laptop in his desk drawer, a secure spot for his personal belongings.\n2. Liam leaves the office for a lunch break, leaving Elias alone.\n3. Elias takes the opportunity to move the laptop from the desk drawer to a filing cabinet, a more spacious spot.\n4. Liam returns to the office, and Elias is still working, but now in the filing cabinet area.\n\nBased on these steps, Liam would likely think the laptop is still in the desk drawer, as that is where Elias initially placed it before Liam left for his lunch break."
+    },
+    {
+        "id": 25,
+        "setting": "office",
+        "scenario": "Elias and Liam are both working in their shared office space. Elias is busy working on his laptop, typing away at a report due later in the day. After a while, he places the laptop in his desk drawer, a secure spot for his personal belongings. Elias moves his laptop from his desk drawer to a filing cabinet, a more spacious spot that can accommodate his laptop and his pile of documents. Liam then decides to step out of the office for a quick lunch break, leaving Elias alone in the room. While Liam is away, Elias continues working, organizing the office and tidying up their shared workspace. Upon Liam's return, Elias is still engrossed in his work, now filing documents and sorting out paperwork in the office.",
+        "question_name": "Liam",
+        "object": "laptop",
+        "target": "observed",
+        "prediction": "To determine where Liam thinks the laptop is, we need to analyze the given information step by step:\n\n1. Initially, Elias places his laptop in his desk drawer, a secure spot for his personal belongings.\n2. Later, Elias moves the laptop from the desk drawer to a filing cabinet, a more spacious spot that can accommodate his laptop and his pile of documents.\n3. Liam steps out of the office for a quick lunch break, leaving Elias alone in the room.\n4. Upon Liam's return, Elias is still engrossed in his work, filing documents and sorting out paperwork in the office.\n\nFrom the given information, we can infer that Liam does not see Elias move the laptop from the desk drawer to the filing cabinet. Since Liam steps out of the office before Elias moves the laptop, Liam's last knowledge of the laptop's location is that it was in the desk drawer.\n\nTherefore, Liam thinks the laptop is in the desk drawer."
+    }
+]

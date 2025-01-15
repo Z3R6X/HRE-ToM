@@ -14,7 +14,7 @@ def main():
     parser.add_argument("--run_dir", default=None, type=str)
     parser.add_argument("--evaluator", default="llognet", type=str)
     parser.add_argument("--return_full_scores", action="store_true")
-    parser.add_argument("--cache_dir", default="/data/hleier/MA/", type=str)
+    parser.add_argument("--cache_dir", default=None, type=str)
     parser.add_argument("--verbose", type=int, default=0)
     parser.add_argument("--load_in_8bit", action="store_true")
     parser.add_argument("--load_in_4bit", action="store_true")
@@ -29,19 +29,22 @@ def main():
             load_in_8bit = args.load_in_8bit,
             load_in_4bit = args.load_in_4bit,
             apply_splitting = args.apply_splitting,
-            return_full_scores = args.return_full_scores
+            return_full_scores = args.return_full_scores,
+            cache_dir=args.cache_dir
         )
 
     elif args.evaluator == "roscoe":
         from eval_frameworks.roscoe import Roscoe
         evaluator = Roscoe(
-            return_full_scores = args.return_full_scores
+            return_full_scores = args.return_full_scores,
+            cache_dir=args.cache_dir
         )
 
     elif args.evaluator == "receval":
         from eval_frameworks.receval import ReCEval
         evaluator = ReCEval(
-            return_full_scores = args.return_full_scores
+            return_full_scores = args.return_full_scores,
+            cache_dir=args.cache_dir
         )
 
     # Create evaluation sub-directory in the run directory

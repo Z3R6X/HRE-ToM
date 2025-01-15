@@ -10,7 +10,7 @@ def get_question_template():
 
 
 def get_data_file():
-    return "Evaluation/data/inferring_emotion_test.json" 
+    return "Evaluation/data/inferring_emotion.json" 
 
 
 def get_cot_file(): # DUMMY!
