@@ -10,7 +10,7 @@ This repository contains:
 - A scripts to test the performance of NLI models on non-deductive reasoning chains.
 - A script to investigate biases in LLM regarding spatial and temporal reasoning.
 
-![Overview of LLogNet](imgs/LLogNet_Overview.png))
+![Overview of LLogNet](imgs/LLogNet_Overview.png)
 ## Setup
 This repository requires multiple conda environments used for different tasks. The `environment/` directory contains the necessary `.yml` files for installing these environments. This is done to prevent dependency issues. To setup the environments follow the instructions:
 - Install this environment to generate data for the benchmarks:
