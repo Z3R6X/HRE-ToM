@@ -1,5 +1,5 @@
-# **HRE-ToM** - **H**olistic **R**easoning **E**valuation for **T**heory-**o**f-**M**ind Tasks
-**HRE-ToM** is a benchmark that aims to holistically evaluate the quality of reasoning chains in Theory-of-Mind contexts. It uses two scenario-based tasks covering two different aspects of ToM, **Inferring Emotion** and **Knowledge-Perception**, and evaluates the generated reasoning chains using a novel holistic evaluation framework: **LLogNet**. 
+# **HRE-ToM** - **H**olistic **R**easoning **E**valuation of **T**heory **o**f **M**ind Tasks
+**HRE-ToM** is a benchmark that aims to holistically evaluate the quality of reasoning chains in Theory of Mind contexts. It uses two scenario-based tasks covering two different aspects of ToM, **Inferring Emotion** and **Knowledge-Perception**, and evaluates the generated reasoning chains using a novel holistic evaluation framework: **LLogNet**. 
 This repository contains:
 - The scripts to synthetically create data for the two ToM tasks, Inferring Emotion and Knowledge-Perception.
 - An inference scripts to generate reasoning chains to answer the tasks.
